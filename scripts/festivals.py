@@ -281,6 +281,36 @@ def build_region(region: str, budget: int, log: list[str]) -> int:
     return done
 
 
+STD_FEST: list | None = None
+
+
+def std_festivals() -> list:
+    """공공데이터포털 전국문화축제표준데이터(같은 인증키, 활용신청 필요). 실패하면 빈 목록(TourAPI만 쓴다)."""
+    global STD_FEST
+    if STD_FEST is not None:
+        return STD_FEST
+    rows, page = [], 1
+    key = os.environ.get("DATA_GO_KR_KEY", "").strip()
+    try:
+        while True:
+            q = urllib.parse.urlencode({"serviceKey": key, "pageNo": page, "numOfRows": 1000, "type": "json"})
+            with urllib.request.urlopen(f"https://api.data.go.kr/openapi/tn_pubr_public_cltur_fstvl_api?{q}", timeout=60) as r:
+                data = json.loads(r.read().decode("utf-8"))
+            root = data.get("response", data)
+            body = root["body"]
+            items = body.get("items") or {}
+            items = items.get("item", []) if isinstance(items, dict) else items
+            rows += [items] if isinstance(items, dict) else items
+            if not items or len(rows) >= int(body.get("totalCount") or 0):
+                break
+            page += 1
+    except Exception as e:  # noqa: BLE001
+        print(f"표준데이터 축제 받기 실패(TourAPI만 사용): {type(e).__name__}")
+        rows = []
+    STD_FEST = rows
+    return rows
+
+
 def write_output(region: str, state: dict, sg: dict[str, str]) -> None:
     out = []
     for cid, h in sorted(state.items()):
@@ -302,6 +332,26 @@ def write_output(region: str, state: dict, sg: dict[str, str]) -> None:
             "eventPlace": d.get("eventPlace"), "playTime": d.get("playTime"), "feeRaw": d.get("feeRaw"),
         })
     p = ROOT / f"festivals/{region}.json"
+    # 앱 데이터셋과 같은 보강: 표준데이터로 빈 칸(프로그램·장소·연락처·홈페이지) 채우고, TourAPI에 없는 축제를 더한다
+    from enrich_shared import Spatial, add_unlisted, _plus
+    std = {"festival": Spatial([dict(r) for r in std_festivals()], "fstvlNm", 5.0), "museum": Spatial([], "fcltyNm")}
+    ds = {"region": region, "places": [], "festivals": out}
+    for f in out:
+        r = std["festival"].find(f["name"], f["lat"], f["lng"])
+        if not r:
+            continue
+        prog = _plus(r.get("fstvlCo"))
+        if prog and not f.get("overview"):
+            f["overview"] = f"주요 프로그램: {prog}"
+        if not f.get("eventPlace") and r.get("opar"):
+            f["eventPlace"] = _plus(r["opar"])
+        if not f.get("phone") and r.get("phoneNumber"):
+            f["phone"] = r["phoneNumber"].strip()
+        hp = (r.get("homepageUrl") or "").strip()
+        if not f.get("homepage") and hp:
+            f["homepage"] = hp if hp.startswith("http") else "http://" + hp
+    add_unlisted(ds, std)
+    out = ds["festivals"]
     # 축제 내용이 그대로면 파일을 바꾸지 않는다(generatedAt만 바뀌면 ETag가 매일 바뀌어 앱이 매번 다시 받는다).
     try:
         prev = json.loads(p.read_text(encoding="utf-8"))
