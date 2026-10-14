@@ -43,8 +43,8 @@ REGIONS = {
     "daegu": {"area": ["대구"], "short": "대구", "ldong": "27", "metro": True},
     "gyeongbuk": {"area": ["경상북도", "경북"], "short": "경북", "ldong": "47"},
     "jeonbuk": {"area": ["전북", "전라북도"], "short": "전북", "ldong": "52"},
-    "gwangju": {"area": ["광주"], "short": "광주", "ldong": "29", "metro": True},
-    "jeonnam": {"area": ["전라남도", "전남"], "short": "전남", "ldong": "46"},
+    # 2026년 광주·전남 통합(전남광주통합특별시): 옛 지역코드 둘 다, 광주 구는 "광주 동구"
+    "jeonnam": {"area": ["전라남도", "전남"], "extra_areas": ["광주"], "short": "전남", "full": "전남광주통합특별시", "ldong": "12", "gu_prefix": "광주"},
     "busan": {"area": ["부산"], "short": "부산", "ldong": "26", "metro": True},
     "ulsan": {"area": ["울산"], "short": "울산", "ldong": "31", "metro": True},
     "gyeongnam": {"area": ["경상남도", "경남"], "short": "경남", "ldong": "48"},
@@ -181,13 +181,15 @@ def display_sigungu(region: str, name: str) -> str:
         return ""
     if cfg.get("metro"):
         return name if name.startswith(cfg["short"] + " ") else f"{cfg['short']} {name}"
+    if cfg.get("gu_prefix") and name.endswith("구") and not name.startswith(cfg["gu_prefix"] + " "):
+        return f"{cfg['gu_prefix']} {name}"
     if SHARED_NAMES.get(name, region) != region:
         return f"{cfg['short']} {name}"
     return name
 
 
-def sigungu_of(region: str, sigungucode, addr1, sigungu: dict[str, str]) -> str:
-    name = sigungu.get(str(sigungucode or ""))
+def sigungu_of(region: str, sigungucode, addr1, sigungu: dict[str, str], areacode=None) -> str:
+    name = sigungu.get(f"{areacode or ''}-{sigungucode or ''}") or sigungu.get(str(sigungucode or ""))
     if name:
         return name
     addr = re.sub(r"^\s*\S+(특별자치도|특별자치시|광역시|특별시|도)\s+", "", addr1 or "")
@@ -195,26 +197,48 @@ def sigungu_of(region: str, sigungucode, addr1, sigungu: dict[str, str]) -> str:
     return display_sigungu(region, m.group(1) if m else "")
 
 
-def area_codes(region: str) -> tuple[str, dict[str, str]]:
-    wants = REGIONS[region]["area"]
+def area_codes(region: str) -> tuple[list[str], dict[str, str]]:
+    cfg = REGIONS[region]
     areas = items(api("areaCode2", numOfRows=50))
-    g = next((a for w in wants for a in areas if a.get("name") == w), None) or \
-        next((a for w in wants for a in areas if w in a.get("name", "")), None)
-    if not g:
-        raise RuntimeError(f"{wants} 지역 코드를 찾지 못함")
-    code = str(g["code"])
-    sg = {str(s["code"]): display_sigungu(region, s["name"]) for s in items(api("areaCode2", areaCode=code, numOfRows=50))}
-    return code, sg
+    codes, sg = [], {}
+    for wants in [cfg["area"]] + [[x] for x in cfg.get("extra_areas", [])]:
+        g = next((a for w in wants for a in areas if a.get("name") == w), None) or \
+            next((a for w in wants for a in areas if w in a.get("name", "")), None)
+        if not g:
+            raise RuntimeError(f"{wants} 지역 코드를 찾지 못함")
+        code = str(g["code"])
+        codes.append(code)
+        for s in items(api("areaCode2", areaCode=code, numOfRows=50)):
+            name = display_sigungu(region, s["name"])
+            sg[f"{code}-{s['code']}"] = name
+            if len(codes) == 1:
+                sg.setdefault(str(s["code"]), name)
+    return codes, sg
+
+
+def ldong_code(region: str) -> str:
+    """법정동 시도 코드를 TourAPI(ldongCode2)에서 이름으로 찾는다. 못 찾으면 설정값."""
+    cfg = REGIONS[region]
+    names = [cfg.get("full", ""), *cfg["area"]]
+    try:
+        rows = items(api("ldongCode2", numOfRows=50))
+    except RuntimeError:
+        return cfg["ldong"]
+    nm = lambda r: r.get("lDongRegnNm") or r.get("name") or ""
+    cd = lambda r: str(r.get("lDongRegnCd") or r.get("code") or "")
+    hit = next((r for n in names if n for r in rows if nm(r) == n), None) or \
+        next((r for n in names if n for r in rows if n in nm(r)), None)
+    return cd(hit) if hit and cd(hit) else cfg["ldong"]
 
 
 def build_region(region: str, budget: int, log: list[str]) -> int:
     """지역 하나. 상세를 받은 수를 돌려준다(하루 한도에 걸리면 DailyLimit)."""
     state_path = ROOT / f"state/{region}.json"
     state = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else {}
-    area, sg = area_codes(region)
+    areas, sg = area_codes(region)
     start = date(date.today().year - 1, 1, 1).strftime("%Y%m%d")
-    by_id = {str(f["contentid"]): f for f in paged("searchFestival2", eventStartDate=start, areaCode=area)}
-    for f in paged("searchFestival2", eventStartDate=start, lDongRegnCd=REGIONS[region]["ldong"]):
+    by_id = {str(f["contentid"]): f for area in areas for f in paged("searchFestival2", eventStartDate=start, areaCode=area)}
+    for f in paged("searchFestival2", eventStartDate=start, lDongRegnCd=ldong_code(region)):
         by_id.setdefault(str(f["contentid"]), f)
     for cid, f in by_id.items():
         s, e = ymd(f.get("eventstartdate")), ymd(f.get("eventenddate"))
@@ -222,7 +246,7 @@ def build_region(region: str, budget: int, log: list[str]) -> int:
             continue
         h = state.setdefault(cid, {"editions": {}})
         changed = h.get("modifiedtime") != f.get("modifiedtime")
-        h.update({k: f.get(k) for k in ("title", "addr1", "mapx", "mapy", "sigungucode", "modifiedtime", "tel", "firstimage", "cpyrhtDivCd")})
+        h.update({k: f.get(k) for k in ("title", "addr1", "mapx", "mapy", "areacode", "sigungucode", "modifiedtime", "tel", "firstimage", "cpyrhtDivCd")})
         h["editions"][s[:4]] = {"start": s, "end": e}
         if changed:
             h.pop("detail", None)  # 수정됐으면 상세를 다시 받는다(작년 요금·시간이 남지 않게)
@@ -270,7 +294,7 @@ def write_output(region: str, state: dict, sg: dict[str, str]) -> None:
         img = [{"url": https(h["firstimage"]), "license": license_of(h.get("cpyrhtDivCd")), "credit": "한국관광공사"}] if h.get("firstimage") else []
         out.append({
             "id": f"festival-{cid}", "name": (h.get("title") or "").strip(),
-            "sigunguName": sigungu_of(region, h.get("sigungucode"), h.get("addr1"), sg),
+            "sigunguName": sigungu_of(region, h.get("sigungucode"), h.get("addr1"), sg, h.get("areacode")),
             "lat": lat, "lng": lng, "interests": ["FESTIVAL"],
             "editions": [{"year": int(y), "start": v["start"], "end": v["end"]} for y, v in sorted(h["editions"].items())],
             "addr": clean(h.get("addr1")), "phone": d.get("phone") or first_phone(h.get("tel")), "images": img,
