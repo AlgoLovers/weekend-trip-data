@@ -215,6 +215,24 @@
 "tel": "064-766-7237",
 "title": "제주광어대축제"
 },
+"2621502": {
+"addr1": "제주특별자치도 제주시 애월읍 평화로 2144",
+"areacode": "",
+"cpyrhtDivCd": "Type3",
+"editions": {
+"2026": {
+"end": "2026-10-25",
+"start": "2026-10-24"
+}
+},
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/65/3545565_image2_1.jpg",
+"mapx": "126.3931218693",
+"mapy": "33.4098408570",
+"modifiedtime": "20261014090232",
+"sigungucode": "",
+"tel": "1566-3333",
+"title": "제주마축제"
+},
 "2728613": {
 "addr1": "제주특별자치도 서귀포시 안덕면 신화역사로304번길 98",
 "areacode": "",

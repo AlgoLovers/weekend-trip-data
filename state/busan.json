@@ -84,15 +84,6 @@
 "addr1": "부산광역시 금정구 산성로 501-2 (금성동)",
 "areacode": "",
 "cpyrhtDivCd": "Type3",
-"detail": {
-"eventPlace": "금정산성광장 및 금정산성 일원",
-"feeRaw": "무료(일부 유료)",
-"fetchedAt": "2026-10-14",
-"homepage": "https://www.gjfac.org/",
-"overview": "2026년 국립공원으로 새롭게 지정된 금정산의 가치를 담은 2026 금정산성축제가 오는 10월 16일(금)부터 10월 18일(일)까지 3일간 금정산성광장 및 금정산성 일원에서 개최된다. 부산광역시 금정구의 대표 문화유산이자 대한민국 최대 규모의 산성인 금정산성과 국립공원 금정산을 바탕으로 하는 역사·문화·예술축제로, 매년 금정산성 축성을 기념하기 위해 개최된다.",
-"phone": "051-715-6884",
-"playTime": "10:00~19:00"
-},
 "editions": {
 "2026": {
 "end": "2026-10-18",
@@ -102,7 +93,7 @@
 "firstimage": "https://tong.visitkorea.or.kr/cms/resource/56/4090456_image2_1.jpg",
 "mapx": "129.0570297348",
 "mapy": "35.2452812589",
-"modifiedtime": "20261006102817",
+"modifiedtime": "20261014123138",
 "sigungucode": "",
 "tel": "051-715-6884",
 "title": "금정산성축제"
@@ -138,15 +129,6 @@
 "addr1": "부산광역시 사상구 삼락동",
 "areacode": "",
 "cpyrhtDivCd": "Type3",
-"detail": {
-"eventPlace": "삼락생태공원",
-"feeRaw": "유료",
-"fetchedAt": "2026-10-14",
-"homepage": "https://busanrockfestival.com/",
-"overview": "부산국제록페스티벌은 2000년 첫 개최 이래, 27년 동안 명맥을 꾸준히 지켜온 국내 최초·최장수 국제록페스티벌이다. 2026년에는 10월 2일(금)부터 10월 4일(일)까지 3일간, 삼락생태공원에서 개최되며, 다양한 국내외 아티스트가 참여할 예정이다.",
-"phone": "051-713-5000",
-"playTime": "10:00~22:00"
-},
 "editions": {
 "2026": {
 "end": "2026-10-04",
@@ -156,7 +138,7 @@
 "firstimage": "https://tong.visitkorea.or.kr/cms/resource/06/4040606_image2_1.jpg",
 "mapx": "128.9681914000",
 "mapy": "35.1728573000",
-"modifiedtime": "20260929131547",
+"modifiedtime": "20261014145223",
 "sigungucode": "",
 "tel": "051-713-5000",
 "title": "부산국제록페스티벌"
@@ -1920,15 +1902,6 @@
 "addr1": "부산광역시 남구 남동천로 128 (문현동)",
 "areacode": "",
 "cpyrhtDivCd": "Type3",
-"detail": {
-"eventPlace": "나우어라이빙(NOW ARRIVING)",
-"feeRaw": "무료",
-"fetchedAt": "2026-10-14",
-"homepage": "https://www.visitbusan.net/",
-"overview": "2026 부산돼지국밥대전은 부산을 대표하는 로컬푸드인 돼지국밥을 주제로 시민과 관광객이 함께 만들어가는 참여형 미식관광 축제이다. 시민과 관광객의 추천을 통해 부산의 돼지국밥 맛집을 발굴하고, 직접 국밥집을 방문해 맛보고 투표하며 올해의 부산 대표 돼지국밥을 선정한다. 국밥에 대한 다양한 이야기를 나누는 ‘국밥회담’을 비롯해 부산 곳곳의 국밥집을 찾아가는 ‘국밥주간’, 돼지국밥을 한자리에서 맛보고 즐길 수 있는 ‘국밥쇼케이스’ 등 다채로운 프로그램이 진행된다.",
-"phone": "070-4129-1082",
-"playTime": "16:00~21:00"
-},
 "editions": {
 "2026": {
 "end": "2026-10-18",
@@ -1938,7 +1911,7 @@
 "firstimage": "https://tong.visitkorea.or.kr/cms/resource/02/4122302_image2_1.jpg",
 "mapx": "129.0643020394",
 "mapy": "35.1482156310",
-"modifiedtime": "20261013132445",
+"modifiedtime": "20261014131256",
 "sigungucode": "",
 "tel": "070-4129-1082",
 "title": "부산돼지국밥대전"

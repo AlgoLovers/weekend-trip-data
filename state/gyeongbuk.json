@@ -705,25 +705,16 @@
 "addr1": "경상북도 구미시 역전로",
 "areacode": "",
 "cpyrhtDivCd": "Type3",
-"detail": {
-"eventPlace": "경상북도 구미시 역전로",
-"feeRaw": "무료",
-"fetchedAt": "2026-10-14",
-"homepage": "https://www.gumiramyun.com/",
-"overview": "*하기 축제 먹거리 내용은 전년도(2025년) 축제 내용으로, 2026년도 축제 먹거리 내용은 업데이트 중에 있습니다.*구미라면축제는 라면을 주제로 구미의 산업과 음식문화, 지역관광을 연계한 지역 대표 축제이다. 구미는 국내 대표 라면기업인 농심 구미공장이 위치한 도시로, 라면 생산과 관련된 산업 기반을 바탕으로 라면을 지역의 관광 콘텐츠로 발전시키고 있다. 축제는 구미역과 역전로, 문화로, 금리단길, 새마을중앙시장 등 원도심 일원에서 개최되며 도심 전체를 축제 공간으로 활용하는 것이 특징이다.",
-"phone": "054-480-2651",
-"playTime": "10:00~21:00"
-},
 "editions": {
 "2026": {
 "end": "2026-11-08",
 "start": "2026-11-06"
 }
 },
-"firstimage": "https://tong.visitkorea.or.kr/cms/resource/40/3497640_image2_1.jpg",
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/59/4124759_image2_1.jpg",
 "mapx": "128.3323188678",
 "mapy": "36.1309792684",
-"modifiedtime": "20261007130043",
+"modifiedtime": "20261014162656",
 "sigungucode": "",
 "tel": "054-480-2651~3",
 "title": "구미라면 축제"
@@ -889,6 +880,24 @@
 "sigungucode": "",
 "tel": "053-567-4497",
 "title": "대한민국 펫캉스"
+},
+"3363802": {
+"addr1": "경상북도 영덕군 병곡면 고래불로 68",
+"areacode": "",
+"cpyrhtDivCd": "Type3",
+"editions": {
+"2026": {
+"end": "2026-10-18",
+"start": "2026-10-16"
+}
+},
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/11/4123911_image2_1.jpg",
+"mapx": "129.4190142309",
+"mapy": "36.5715161960",
+"modifiedtime": "20261014113932",
+"sigungucode": "",
+"tel": "054-730-5852",
+"title": "영덕 웰니스페스타"
 },
 "3377995": {
 "addr1": "경상북도 김천시 대항면 직지사길 118",
@@ -1596,15 +1605,6 @@
 "addr1": "경상북도 영주시 풍기읍 성내리",
 "areacode": "",
 "cpyrhtDivCd": "Type3",
-"detail": {
-"eventPlace": "영주시 풍기읍 남원천 및 풍기인삼공원 일원",
-"feeRaw": "무료(일부 체험프로그램 유료)",
-"fetchedAt": "2026-10-14",
-"homepage": "https://yctf.or.kr/punggiginseng/",
-"overview": "인삼은 기력 회복과 면연력 증진에 도움이 되는 한국의 대표적인 보양식품이다. 인삼의 영양분이 가장 많은 시기인 10월 한국에서 손꼽히는 인삼 산지 중 하나인 영주에서 풍기인삼축제가 생동감 있게 열린다. 건강을 상징하는 인삼을 테마로 하는 축제답게 남녀노소 누구나 즐 길 수 있는 건강관련 전시와 체험 위주로 진행된다. 특별 프로그램으로는 개삼터 고유제, 주세붕군수 행차 재현, 인삼대제 등이 있다. 영양만점 풍기인삼으로 만든 인삼요리를 직접 맛볼수 있으며 재미있는 인삼깎기 등 풍기인삼과 관련된 재미있는 체험도 할 수 있다.",
-"phone": "054-630-8706",
-"playTime": "10:00~20:00"
-},
 "editions": {
 "2026": {
 "end": "2026-10-11",
@@ -1614,7 +1614,7 @@
 "firstimage": "https://tong.visitkorea.or.kr/cms/resource/55/3563955_image2_1.jpg",
 "mapx": "128.5215180000",
 "mapy": "36.8687180000",
-"modifiedtime": "20260923105749",
+"modifiedtime": "20261014152046",
 "sigungucode": "",
 "tel": "054-630-8706",
 "title": "영주 풍기인삼축제"

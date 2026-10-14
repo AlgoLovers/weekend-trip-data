@@ -975,15 +975,6 @@
 "addr1": "경기도 안양시 동안구 관평로 149 (평촌동)",
 "areacode": "",
 "cpyrhtDivCd": "Type3",
-"detail": {
-"eventPlace": "평촌중앙공원",
-"feeRaw": "무료",
-"fetchedAt": "2026-10-14",
-"homepage": null,
-"overview": "안양청년축제가 10월 10일 평촌중앙공원에서 열린다. 올해 축제는 ''청춘은 보라''라는 슬로건 아래 각자의 고유한 빛을 가진 청년들이 안양의 색 ‘보라’ 안에서 어우러져, 안양의 오늘을 가장 아름다운 청춘으로 물들이는 축제라는 의미를 담고 있다. 슬로건의 '보라'는 열정의 '빨강'과 쉼의 '파랑'이 만난 청춘의 색이자, 서로의 다채로운 청춘을 함께 보고 나누자는 의미이다.",
-"phone": "031-8045-5779",
-"playTime": "16:00~21:00"
-},
 "editions": {
 "2026": {
 "end": "2026-10-10",
@@ -993,7 +984,7 @@
 "firstimage": "https://tong.visitkorea.or.kr/cms/resource/82/4116882_image2_1.JPG",
 "mapx": "126.9613286581",
 "mapy": "37.3901365976",
-"modifiedtime": "20261001150529",
+"modifiedtime": "20261014153205",
 "sigungucode": "",
 "tel": "031-8045-5779",
 "title": "안양청년축제"
@@ -1083,15 +1074,6 @@
 "addr1": "경기도 연천군 전곡읍 양연로 1510",
 "areacode": "",
 "cpyrhtDivCd": "Type3",
-"detail": {
-"eventPlace": "연천 전곡리 유적",
-"feeRaw": "유료",
-"fetchedAt": "2026-10-14",
-"homepage": null,
-"overview": "제8회 연천국화축제는 연천군이 주최하고 연천군농업기술센터가 주관하여 연천 전곡리 유적 일원에서 개최하는 가을 국화축제이다. 2026년 축제의 주제는 ‘고구려의 숨결, 국화꽃으로 피어나다’이며, 전곡리 유적의 역사·문화적 공간과 다양한 국화 경관을 연계하여 관람객에게 볼거리와 체험거리를 제공하는 행사이다. 행사장에는 국화를 활용한 대형 경관과 테마형 포토존, 고구려 이미지를 활용한 전시·체험 공간 등이 조성될 예정이다.",
-"phone": "031-839-4259",
-"playTime": "09:00~18:00"
-},
 "editions": {
 "2026": {
 "end": "2026-10-25",
@@ -1101,7 +1083,7 @@
 "firstimage": "https://tong.visitkorea.or.kr/cms/resource/43/4117543_image2_1.jpg",
 "mapx": "127.0614526431",
 "mapy": "38.0156483829",
-"modifiedtime": "20261006112430",
+"modifiedtime": "20261014130146",
 "sigungucode": "",
 "tel": "031-839-4259",
 "title": "연천 국화축제"
@@ -1540,30 +1522,25 @@
 },
 "3113995": {
 "addr1": "경기도 양주시 광적면 삼일로 52",
-"areacode": "31",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
-"detail": {
-"eventPlace": "가납리비행장",
-"feeRaw": "무료",
-"fetchedAt": "2026-10-14",
-"homepage": "https://www.yangju.go.kr/www/selectBbsNttView.do?key=203&bbsNo=14&nttNo=198652&searchCtgry=&searchListTy=list&searchCnd=all&searchKrwd=&pageIndex=1&integrDeptCode=",
-"overview": "‘2025 경기‧양주‧지작사 드론봇 페스티벌’은 경기도, 양주시, 지상작전사령부가 공동 주최하는 민ㆍ관ㆍ군 상생 페스티벌이다. 2025년 10월 31일부터 11월 2일까지 3일간 양주시 광적면 가납리비행장에서 개최된다. 본 축제는 「양주시 드론산업 육성 및 지원에 관한 조례」와 「가납리 비행장 민·관·군 상생발전을 위한 업무협약」을 근거로 서부권 대표 축제를 육성하고, 드론 산업 기반을 마련하여 지역 균형발전을 도모하는 것이 목적이다.",
-"phone": "031-8082-6161",
-"playTime": "09:00~17:00"
-},
 "editions": {
 "2025": {
 "end": "2025-11-02",
 "start": "2025-10-31"
+},
+"2026": {
+"end": "2026-11-01",
+"start": "2026-10-30"
 }
 },
-"firstimage": "http://tong.visitkorea.or.kr/cms/resource/93/3113993_image2_1.jpg",
-"mapx": "117.9925662504",
-"mapy": "19.6944274800",
-"modifiedtime": "20251028163023",
-"sigungucode": "18",
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/54/4124654_image2_1.JPG",
+"mapx": "126.9897980000",
+"mapy": "37.8335530000",
+"modifiedtime": "20261014154844",
+"sigungucode": "",
 "tel": "031-8082-6161",
-"title": "드론봇 페스티벌"
+"title": "경기‧양주‧지작사 드론봇 페스티벌"
 },
 "3114685": {
 "addr1": "경기도 수원시 권선구 수인로 154 (서둔동)",
@@ -1699,6 +1676,24 @@
 "sigungucode": "",
 "tel": "070-7575-2351",
 "title": "2026 대한민국 AI 콘텐츠 어워즈"
+},
+"3352029": {
+"addr1": "경기도 포천시 관인면 창동로 832",
+"areacode": "",
+"cpyrhtDivCd": "Type3",
+"editions": {
+"2026": {
+"end": "2026-11-01",
+"start": "2026-09-12"
+}
+},
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/47/4114547_image2_1.jpeg",
+"mapx": "127.2085797227",
+"mapy": "38.0829307871",
+"modifiedtime": "20261014173549",
+"sigungucode": "",
+"tel": "031-538-3030",
+"title": "포천 한탄강 가든페스타"
 },
 "3352452": {
 "addr1": "경기도 고양시 일산서구 킨텍스로 217-60 (대화동)",
@@ -2833,6 +2828,24 @@
 "sigungucode": "",
 "tel": "031-230-3268",
 "title": "2026 서가콘서트 : 셜록홈즈"
+},
+"4099101": {
+"addr1": "경기도 수원시 팔달구 팔달문로 9 (팔달로2가)",
+"areacode": "",
+"cpyrhtDivCd": "Type3",
+"editions": {
+"2026": {
+"end": "2026-10-31",
+"start": "2026-10-10"
+}
+},
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/22/4123922_image2_1.jpg",
+"mapx": "127.0184725227",
+"mapy": "37.2777511770",
+"modifiedtime": "20261014110701",
+"sigungucode": "",
+"tel": "031-8001-1101",
+"title": "불취무귀야시장 시즌2"
 },
 "4109423": {
 "addr1": "경기도 남양주시 고산로 254-2 (삼패동)",

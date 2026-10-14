@@ -759,28 +759,23 @@
 "addr1": "강원특별자치도 강릉시 단오장길 1 (노암동)",
 "areacode": "",
 "cpyrhtDivCd": "Type3",
-"detail": {
-"eventPlace": "강릉단오제전수교육관",
-"feeRaw": "무료",
-"fetchedAt": "2026-10-14",
-"homepage": "https://www.danojefestival.or.kr/",
-"overview": "단단단 ［端單團］으뜸 단［端］, 오직 하나 단［單］, 우리 단［團］을 뜻하며, “오직 하나뿐인 우리의 으뜸 축제”를 의미한다. 이번 축제는 강원도의 전통문화를 중심으로 지역 예술가들에게 창작의 기회를 제공하고, 시민 문화 향유권 증진과 관광 활성화를 도모하기 위해 마련됐다.",
-"phone": "033-641-1593",
-"playTime": "10:30~19:30"
-},
 "editions": {
 "2025": {
 "end": "2025-11-29",
 "start": "2025-11-27"
+},
+"2026": {
+"end": "2026-11-28",
+"start": "2026-11-26"
 }
 },
-"firstimage": "https://tong.visitkorea.or.kr/cms/resource/46/3562846_image2_1.jpg",
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/82/4124982_image2_1.jpg",
 "mapx": "128.8950411936",
 "mapy": "37.7482018271",
-"modifiedtime": "20260624140415",
+"modifiedtime": "20261014165307",
 "sigungucode": "",
 "tel": "033-641-1593",
-"title": "2025 단단단페스티벌"
+"title": "2026 단단단페스티벌"
 },
 "2873042": {
 "addr1": "강원특별자치도 홍천군 홍천읍 갈마곡리",

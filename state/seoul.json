@@ -1218,25 +1218,16 @@
 "addr1": "서울특별시 중구 을지로 281 (을지로7가)",
 "areacode": "",
 "cpyrhtDivCd": "Type3",
-"detail": {
-"eventPlace": "동대문디자인플라자",
-"feeRaw": "무료",
-"fetchedAt": "2026-10-14",
-"homepage": "https://ddp.or.kr/",
-"overview": "서울 도심을 환하게 비춰줄 세계 최대 비정형 미디어아트 축제 [서울라이트 DDP 2026 가을]이 오는 9월 3일부터 13일까지 11일간 동대문디자인플라자(DDP)에서 개최된다. ‘DAYBREAKER’를 테마로, 어둠을 깨고 새로운 빛을 여는 혁신과 도전정신을 가을·겨울·카운트다운 세 개의 축제를 통해 선보인다. 그 첫 장을 여는 [서울라이트 DDP 2026 가을]은 ‘K-Original Light’를 주제로, 오늘의 한국 문화를 이루어온 근원적인 빛을 조명한다.",
-"phone": "02-2153-0000",
-"playTime": "19:30~22:30"
-},
 "editions": {
 "2026": {
 "end": "2026-09-13",
 "start": "2026-09-03"
 }
 },
-"firstimage": "https://tong.visitkorea.or.kr/cms/resource/08/4109008_image2_1.jpg",
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/71/4124771_image2_1.jpg",
 "mapx": "127.0095547691",
 "mapy": "37.5660539726",
-"modifiedtime": "20260908153554",
+"modifiedtime": "20261014161346",
 "sigungucode": "",
 "tel": "02-2153-0000",
 "title": "서울라이트 DDP 가을"
@@ -2082,25 +2073,16 @@
 "addr1": "서울특별시 서초구 신반포로 194 (반포동)",
 "areacode": "",
 "cpyrhtDivCd": "Type3",
-"detail": {
-"eventPlace": "서울고속버스터미널 일대",
-"feeRaw": "무료",
-"fetchedAt": "2026-10-14",
-"homepage": null,
-"overview": "[서초뮤직앤아트페스티벌(SMAF)]은 청년의 감각과 열정으로 도심 한복판을 문화예술의 광장으로 바꾸는 서초구 대표 여름 축제이다. 2023년 축제의 첫선을 보인 이후 구민들의 열띤 호응 속에 빠르게 성장하여 올해로 4회를 맞이했으며, 축제 장소는 서울고속버스터미널 일대와 고터·세빛 관광특구를 배경으로 펼쳐진다. 올해는 특별히 음악과 패션이 결합된 고터·세빛 관광특구만의 융복합 K-컬처 무대를 새롭게 만나볼 수 있다.",
-"phone": "02-3477-2808",
-"playTime": "17:00~21:00"
-},
 "editions": {
 "2026": {
 "end": "2026-08-30",
 "start": "2026-08-29"
 }
 },
-"firstimage": "https://tong.visitkorea.or.kr/cms/resource/29/4094029_image2_1.jpg",
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/86/4124886_image2_1.jpg",
 "mapx": "127.0055699583",
 "mapy": "37.5061540847",
-"modifiedtime": "20260825100352",
+"modifiedtime": "20261014163104",
 "sigungucode": "",
 "tel": "02-3477-2808",
 "title": "서초뮤직앤아트페스티벌(SMAF)"
@@ -4705,6 +4687,24 @@
 "sigungucode": "",
 "tel": "02-2127-4231",
 "title": "동대문구 청소년 페스티벌"
+},
+"4124907": {
+"addr1": "서울특별시 강동구 선사로 83-19 (천호동)",
+"areacode": "",
+"cpyrhtDivCd": "Type3",
+"editions": {
+"2026": {
+"end": "2026-11-29",
+"start": "2026-10-18"
+}
+},
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/08/4124908_image2_1.jpg",
+"mapx": "127.1179813872",
+"mapy": "37.5452481279",
+"modifiedtime": "20261014164043",
+"sigungucode": "",
+"tel": "1644-6155",
+"title": "2026 쉬엄쉬엄모닝"
 },
 "507531": {
 "addr1": "서울특별시 송파구 올림픽로 424 (방이동)",

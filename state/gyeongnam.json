@@ -53,6 +53,24 @@
 "tel": "055-530-1521",
 "title": "창녕낙동강유채축제"
 },
+"1325331": {
+"addr1": "경상남도 창원시 성산구 중앙대로186번길 13 (신월동)",
+"areacode": "",
+"cpyrhtDivCd": "Type3",
+"editions": {
+"2026": {
+"end": "2026-10-25",
+"start": "2026-10-23"
+}
+},
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/13/4125113_image2_1.JPG",
+"mapx": "128.6870836870",
+"mapy": "35.2293083357",
+"modifiedtime": "20261014175724",
+"sigungucode": "",
+"tel": "055-277-8779",
+"title": "문화다양성축제 MAMF(맘프)"
+},
 "1327778": {
 "addr1": "경상남도 거제시 옥포동 1978-1",
 "areacode": "",
@@ -1078,6 +1096,24 @@
 "sigungucode": "",
 "tel": "055-359-4582",
 "title": "밀양 매운맛 축제"
+},
+"4123754": {
+"addr1": "경상남도 의령군 지정면 성산리 228",
+"areacode": "",
+"cpyrhtDivCd": "Type3",
+"editions": {
+"2026": {
+"end": "2026-10-25",
+"start": "2026-09-24"
+}
+},
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/56/4123756_image2_1.jpg",
+"mapx": "128.4320700618",
+"mapy": "35.3962139306",
+"modifiedtime": "20261014101912",
+"sigungucode": "",
+"tel": "055-570-2764",
+"title": "의령기강리치꽃축제"
 },
 "506470": {
 "addr1": "경상남도 김해시 장유로 551 (신문동)",
