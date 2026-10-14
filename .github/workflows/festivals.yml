@@ -1,0 +1,50 @@
+# 매일 축제 파일 갱신. 앱(weekend-trip)이 하루 한 번 festivals/<지역>.json 을 받아 간다.
+# 하루 한도는 자정(KST)에 풀린다. 앱 데이터셋 빌드보다 먼저 돌려서 축제 상세가 먼저 채워지게 한다.
+name: festivals
+
+on:
+  schedule:
+    - cron: "5 15 * * *"   # 매일 00:05 KST
+  workflow_dispatch:
+    inputs:
+      regions:
+        description: "지역(쉼표로 여러 개, 비우면 전체)"
+        default: ""
+      max_details:
+        description: "지역마다 새로 받을 축제 상세 수"
+        default: "150"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: festivals
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build festivals
+        env:
+          DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
+        run: |
+          ARGS=""
+          [ -n "${{ inputs.regions }}" ] && ARGS="--regions ${{ inputs.regions }}"
+          python3 -u scripts/festivals.py $ARGS --max-details "${{ inputs.max_details || '150' }}"
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add festivals/ state/
+          git diff --cached --quiet && { echo "변경 없음"; exit 0; }
+          git commit -m "축제 갱신 $(TZ=Asia/Seoul date +%Y-%m-%d)"
+          git push
