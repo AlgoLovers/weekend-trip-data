@@ -333,7 +333,7 @@ def write_output(region: str, state: dict, sg: dict[str, str]) -> None:
         })
     p = ROOT / f"festivals/{region}.json"
     # 앱 데이터셋과 같은 보강: 표준데이터로 빈 칸(프로그램·장소·연락처·홈페이지) 채우고, TourAPI에 없는 축제를 더한다
-    from enrich_shared import Spatial, add_unlisted, _plus
+    from enrich_shared import Spatial, add_unlisted, _plus, clean_url
     std = {"festival": Spatial([dict(r) for r in std_festivals()], "fstvlNm", 5.0), "museum": Spatial([], "fcltyNm")}
     ds = {"region": region, "places": [], "festivals": out}
     for f in out:
@@ -347,9 +347,8 @@ def write_output(region: str, state: dict, sg: dict[str, str]) -> None:
             f["eventPlace"] = _plus(r["opar"])
         if not f.get("phone") and r.get("phoneNumber"):
             f["phone"] = r["phoneNumber"].strip()
-        hp = (r.get("homepageUrl") or "").strip()
-        if not f.get("homepage") and hp:
-            f["homepage"] = hp if hp.startswith("http") else "http://" + hp
+        if not f.get("homepage") and clean_url(r.get("homepageUrl")):
+            f["homepage"] = clean_url(r.get("homepageUrl"))
     add_unlisted(ds, std)
     out = ds["festivals"]
     # 축제 내용이 그대로면 파일을 바꾸지 않는다(generatedAt만 바뀌면 ETag가 매일 바뀌어 앱이 매번 다시 받는다).
