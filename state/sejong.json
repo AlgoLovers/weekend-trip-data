@@ -1,1 +1,110 @@
-{}
+{
+"1849007": {
+"addr1": "세종특별자치시 다솜로 216 (세종동)",
+"areacode": "",
+"cpyrhtDivCd": "Type3",
+"editions": {
+"2026": {
+"end": "2026-10-11",
+"start": "2026-10-09"
+}
+},
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/16/3553216_image2_1.jpg",
+"mapx": "127.2701840594",
+"mapy": "36.4989534530",
+"modifiedtime": "20261006163828",
+"sigungucode": "",
+"tel": "044-850-0593",
+"title": "세종한글축제"
+},
+"3300114": {
+"addr1": "세종특별자치시 다솜로 216 (세종동)",
+"areacode": "",
+"cpyrhtDivCd": "Type3",
+"editions": {
+"2026": {
+"end": "2026-05-16",
+"start": "2026-05-16"
+}
+},
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/29/4039829_image2_1.jpg",
+"mapx": "127.270076349597",
+"mapy": "36.4988231384441",
+"modifiedtime": "20260519155828",
+"sigungucode": "",
+"tel": "044-850-0592",
+"title": "세종낙화축제"
+},
+"3305155": {
+"addr1": "세종특별자치시 다솜로 216 (세종동)",
+"areacode": "",
+"cpyrhtDivCd": "Type3",
+"editions": {
+"2026": {
+"end": "2026-06-13",
+"start": "2026-06-13"
+}
+},
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/62/4066962_image2_1.jpg",
+"mapx": "127.2701840594",
+"mapy": "36.4989534530",
+"modifiedtime": "20260610091843",
+"sigungucode": "",
+"tel": "044-865-2411",
+"title": "세종단오제"
+},
+"4056597": {
+"addr1": "세종특별자치시 중앙공원로 60 (세종동)",
+"areacode": "",
+"cpyrhtDivCd": "Type3",
+"editions": {
+"2026": {
+"end": "2026-05-16",
+"start": "2026-05-15"
+}
+},
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/57/4058657_image2_1.jpg",
+"mapx": "127.271736903174",
+"mapy": "36.4917742203486",
+"modifiedtime": "20260421150659",
+"sigungucode": "",
+"tel": "044-850-8955",
+"title": "제629돌 세종대왕 나신 날"
+},
+"4091116": {
+"addr1": "세종특별자치시 대평동 270-8",
+"areacode": "",
+"cpyrhtDivCd": "Type3",
+"editions": {
+"2026": {
+"end": "2026-08-22",
+"start": "2026-08-06"
+}
+},
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/25/4091125_image2_1.jpg",
+"mapx": "127.2722214092",
+"mapy": "36.4711413718",
+"modifiedtime": "20260722155748",
+"sigungucode": "",
+"tel": "070-4266-7078",
+"title": "우리동네 문화아지트 : LH주택전시관 복합문화행사"
+},
+"4108258": {
+"addr1": "세종특별자치시 중앙공원로 60 (세종동)",
+"areacode": "",
+"cpyrhtDivCd": "Type3",
+"editions": {
+"2026": {
+"end": "2026-11-08",
+"start": "2026-10-09"
+}
+},
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/46/4108746_image2_1.jpg",
+"mapx": "127.2717369032",
+"mapy": "36.4917742203",
+"modifiedtime": "20260908112830",
+"sigungucode": "",
+"tel": "044-850-8952",
+"title": "2026 한글문화특별기획전 〈세종과 남준〉"
+}
+}
