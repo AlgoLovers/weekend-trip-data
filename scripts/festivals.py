@@ -301,10 +301,17 @@ def write_output(region: str, state: dict, sg: dict[str, str]) -> None:
             "overview": d.get("overview"), "homepage": d.get("homepage"),
             "eventPlace": d.get("eventPlace"), "playTime": d.get("playTime"), "feeRaw": d.get("feeRaw"),
         })
+    p = ROOT / f"festivals/{region}.json"
+    # 축제 내용이 그대로면 파일을 바꾸지 않는다(generatedAt만 바뀌면 ETag가 매일 바뀌어 앱이 매번 다시 받는다).
+    try:
+        prev = json.loads(p.read_text(encoding="utf-8"))
+        if prev.get("festivals") == out:
+            return
+    except (FileNotFoundError, json.JSONDecodeError):
+        pass
     doc = {"schemaVersion": 1, "kind": "festivals", "region": region,
            "generatedAt": datetime.now(KST).isoformat(timespec="seconds"),
            "source": "한국관광공사 TourAPI 4.0 (공공누리)", "festivals": out}
-    p = ROOT / f"festivals/{region}.json"
     p.parent.mkdir(exist_ok=True)
     p.write_text(json.dumps(doc, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
 
