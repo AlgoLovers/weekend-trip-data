@@ -53,6 +53,12 @@ REGIONS = {
 SHARED_NAMES = {"고성군": "gangwon"}
 
 calls: Counter = Counter()
+LIMIT_HIT = False
+
+
+def mark_limit() -> None:
+    global LIMIT_HIT
+    LIMIT_HIT = True
 
 
 class DailyLimit(RuntimeError):
@@ -227,6 +233,8 @@ def build_region(region: str, budget: int, log: list[str]) -> int:
     done = 0
     try:
         for cid in todo[:budget]:
+            if LIMIT_HIT:
+                break
             c = (items(api("detailCommon2", contentId=cid)) or [{}])[0]
             i = (items(api("detailIntro2", contentId=cid, contentTypeId="15")) or [{}])[0]
             state[cid]["detail"] = {
@@ -237,6 +245,10 @@ def build_region(region: str, budget: int, log: list[str]) -> int:
                 "feeRaw": clean(i.get("usetimefestival")), "fetchedAt": today,
             }
             done += 1
+    except DailyLimit as e:
+        # 상세 한도만 찬 것: 목록(사진·날짜)은 계속 갱신되도록 다른 지역은 상세 없이 진행한다.
+        mark_limit()
+        log.append(f"- 상세 하루 한도 도달({region}): {e}")
     finally:
         state_path.parent.mkdir(exist_ok=True)
         state_path.write_text(json.dumps(state, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")
@@ -283,7 +295,8 @@ def main() -> None:
         try:
             build_region(r, args.max_details, log)
         except DailyLimit as e:
-            log.append(f"- 하루 한도 도달, 여기서 멈춤: {e}")
+            # 목록 기능까지 한도에 걸리면 더 해도 소용없다.
+            log.append(f"- 목록 하루 한도 도달, 여기서 멈춤: {e}")
             break
         except Exception as e:  # noqa: BLE001 - 한 지역이 실패해도 나머지는 계속
             log.append(f"- {r} 실패: {type(e).__name__}: {str(e)[:200]}")
