@@ -1,6 +1,7 @@
 {
 "1328004": {
 "addr1": "경상북도 예천군 풍양면 삼강리길 33",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -18,6 +19,7 @@
 },
 "1399407": {
 "addr1": "경상북도 청도군 화양읍 청려로 1846",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -35,6 +37,7 @@
 },
 "142064": {
 "addr1": "경상북도 봉화군 봉화읍 내성리",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -52,6 +55,7 @@
 },
 "1632810": {
 "addr1": "경상북도 영주시 풍기읍 삼가로 509",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -69,6 +73,7 @@
 },
 "1748721": {
 "addr1": "경상북도 포항시 북구 선착로 78 (동빈1가)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -86,6 +91,7 @@
 },
 "1844150": {
 "addr1": "경상북도 칠곡군 석적읍 중지리",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -103,6 +109,7 @@
 },
 "1892201": {
 "addr1": "경상북도 울진군 후포면 울진대게로 236-14",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -120,6 +127,7 @@
 },
 "1937428": {
 "addr1": "경북 예천군 예천읍 남본리 310-1",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -137,6 +145,7 @@
 },
 "1939183": {
 "addr1": "경상북도 문경시 문경읍 새재로 932",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -154,6 +163,7 @@
 },
 "2485128": {
 "addr1": "경상북도 경주시 황남동",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -171,6 +181,7 @@
 },
 "2491545": {
 "addr1": "경북 포항시 남구 오천읍 용덕리 85 일원",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -188,6 +199,7 @@
 },
 "2560471": {
 "addr1": "경상북도 의성군 의성읍 도서리 286",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -205,6 +217,7 @@
 },
 "2614760": {
 "addr1": "경상북도 경주시 인왕동 839-1",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -222,6 +235,7 @@
 },
 "2622679": {
 "addr1": "경상북도 예천군 호명읍 산합리 73",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -239,6 +253,7 @@
 },
 "2667017": {
 "addr1": "경상북도 고령군 대가야로 1216 대가야역사테마관광지",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -256,6 +271,7 @@
 },
 "2667583": {
 "addr1": "경상북도 봉화군 춘양면 춘양로 1501",
+"areacode": "35",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -273,6 +289,7 @@
 },
 "2759249": {
 "addr1": "경상북도 경산시 남매로 100 (상방동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -290,6 +307,7 @@
 },
 "2816651": {
 "addr1": "경상북도 성주군 성주읍 성밖숲길 30",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -307,6 +325,7 @@
 },
 "2858894": {
 "addr1": "경상북도 성주군 수륜면 수성리",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -324,6 +343,7 @@
 },
 "2867141": {
 "addr1": "경상북도 안동시 축제장길 66 (안흥동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -341,6 +361,7 @@
 },
 "2974166": {
 "addr1": "경상북도 안동시 경동로 684",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -358,6 +379,7 @@
 },
 "2988303": {
 "addr1": "경상북도 영천시 최무선로 364 (문외동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -375,6 +397,7 @@
 },
 "2992167": {
 "addr1": "경상북도 영주시 가흥로 109 (가흥동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -392,6 +415,7 @@
 },
 "2993769": {
 "addr1": "경상북도 안동시 강남로 246 (정하동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -409,6 +433,7 @@
 },
 "3016265": {
 "addr1": "경상북도 경산시 대학로28길 6-5 (중방동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -426,6 +451,7 @@
 },
 "3017799": {
 "addr1": "경상북도 구미시 송정동",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -443,6 +469,7 @@
 },
 "3028462": {
 "addr1": "경상북도 구미시 역전로",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -460,6 +487,7 @@
 },
 "3062300": {
 "addr1": "경상북도 경주시 원효로 112 (노동동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -477,6 +505,7 @@
 },
 "3075387": {
 "addr1": "경상북도 영양군 영양읍 현리",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -494,6 +523,7 @@
 },
 "3109677": {
 "addr1": "경상북도 안동시 축제장길 200 (운흥동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -511,6 +541,7 @@
 },
 "3115326": {
 "addr1": "경상북도 문경시 흥덕동 69-1",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -528,6 +559,7 @@
 },
 "3115750": {
 "addr1": "경상북도 영주시 순흥면 선비세상로 1",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -545,6 +577,7 @@
 },
 "3302702": {
 "addr1": "경상북도 구미시 산동읍 첨단기업1로 49",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -562,6 +595,7 @@
 },
 "3377995": {
 "addr1": "경상북도 김천시 대항면 직지사길 118",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -579,6 +613,7 @@
 },
 "3486887": {
 "addr1": "경상북도 칠곡군 왜관읍 관문로 61",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -596,6 +631,7 @@
 },
 "3487396": {
 "addr1": "경상북도 칠곡군 왜관읍 왜관리",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -613,6 +649,7 @@
 },
 "3497502": {
 "addr1": "경상북도 경산시 강변서로 190 (옥산동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -630,6 +667,7 @@
 },
 "3509748": {
 "addr1": "경상북도 경주시 경감로 614 (천군동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -647,6 +685,7 @@
 },
 "3536325": {
 "addr1": "경상북도 경주시 경감로 614 (천군동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -664,6 +703,7 @@
 },
 "3563389": {
 "addr1": "경상북도 울진군 죽변면 죽변항길 150",
+"areacode": "35",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -681,6 +721,7 @@
 },
 "3566596": {
 "addr1": "경상북도 포항시 북구 양덕남로 166 (양덕동)",
+"areacode": "35",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -698,6 +739,7 @@
 },
 "4058391": {
 "addr1": "경북 예천군 용궁면 대은리 347",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -715,6 +757,7 @@
 },
 "4060101": {
 "addr1": "경상북도 안동시 축제장길 200 (운흥동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -732,6 +775,7 @@
 },
 "4062064": {
 "addr1": "경상북도 경주시 금성로 260-6 (노서동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -749,6 +793,7 @@
 },
 "4069159": {
 "addr1": "경상북도 영덕군 영덕읍 해맞이길 254-20",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -766,6 +811,7 @@
 },
 "4087207": {
 "addr1": "경상북도 경주시 황성공원로 29 (황성동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -783,6 +829,7 @@
 },
 "4097059": {
 "addr1": "포항시 북구 두호동 1015-6번지",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -800,6 +847,7 @@
 },
 "4100347": {
 "addr1": "경상북도 포항시 남구 오천읍 문덕로 35",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -817,6 +865,7 @@
 },
 "4102351": {
 "addr1": "경상북도 칠곡군 기산면 강정길 47-10",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -834,6 +883,7 @@
 },
 "4106717": {
 "addr1": "경상북도 안동시 도산면 월천길 301",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -851,6 +901,7 @@
 },
 "4107073": {
 "addr1": "경상북도 문경시 흥덕동 69-1",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -868,6 +919,7 @@
 },
 "4109730": {
 "addr1": "경상북도 안동시 도산면 월천길 301",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -885,6 +937,7 @@
 },
 "4110067": {
 "addr1": "경상북도 칠곡군 왜관읍 중앙로8길 10",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -902,6 +955,7 @@
 },
 "4110583": {
 "addr1": "경상북도 상주시 만산동 682",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -919,6 +973,7 @@
 },
 "4113071": {
 "addr1": "경상북도 문경시 가은읍 왕능리 416",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -936,6 +991,7 @@
 },
 "4119230": {
 "addr1": "경상북도 포항시 남구 축항로 45 (해도동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -953,6 +1009,7 @@
 },
 "506295": {
 "addr1": "경상북도 문경시 새재로 932",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -970,6 +1027,7 @@
 },
 "506544": {
 "addr1": "경상북도 봉화군 봉화읍 내성로5길 13",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -987,6 +1045,7 @@
 },
 "506670": {
 "addr1": "경상북도 안동시 육사로 239 (운흥동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1004,6 +1063,7 @@
 },
 "506766": {
 "addr1": "경상북도 영주시 풍기읍 성내리",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1021,6 +1081,7 @@
 },
 "588175": {
 "addr1": "경상북도 포항시 북구 해안로 48 (항구동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1038,6 +1099,7 @@
 },
 "635451": {
 "addr1": "경상북도 문경시 문경읍 새재로 932",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1055,6 +1117,7 @@
 },
 "921212": {
 "addr1": "경북 청송군 청송읍 월막리 484-1",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1072,6 +1135,7 @@
 },
 "968157": {
 "addr1": "경상북도 의성군 사곡면 산수유2길 2",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {

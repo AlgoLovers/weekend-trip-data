@@ -1,6 +1,7 @@
 {
 "1068150": {
 "addr1": "경상남도 사천시 팔포3길 56-35 (동금동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -18,6 +19,7 @@
 },
 "1252849": {
 "addr1": "경상남도 창녕군 남지읍 남지강변길 177",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -35,6 +37,7 @@
 },
 "1327778": {
 "addr1": "경상남도 거제시 옥포동 1978-1",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -52,6 +55,7 @@
 },
 "141105": {
 "addr1": "경상남도 고성군 당항만로 1116",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -69,6 +73,7 @@
 },
 "141578": {
 "addr1": "경상남도 남해군 남해읍 남해대로 2745",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -86,6 +91,7 @@
 },
 "1506389": {
 "addr1": "경상남도 거창군 신원면 덕산리",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -103,6 +109,7 @@
 },
 "1824778": {
 "addr1": "경상남도 통영시 남망공원길 29 (동호동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -120,6 +127,7 @@
 },
 "2362516": {
 "addr1": "경상남도 함안군 함안대로 619-4 함안스포츠타운",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -137,6 +145,7 @@
 },
 "2372235": {
 "addr1": "경상남도 사천시 사천대로 35 (대방동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -154,6 +163,7 @@
 },
 "2381291": {
 "addr1": "경상남도 양산시 배움터길 60-19",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -171,6 +181,7 @@
 },
 "2614762": {
 "addr1": "경상남도 거제시 장승로 138 (장승포동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -188,6 +199,7 @@
 },
 "2714144": {
 "addr1": "경상남도 함안군 가야읍 도항리 249-48",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -205,6 +217,7 @@
 },
 "2746930": {
 "addr1": "경상남도 거창군 신원면 연수사길 452",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -222,6 +235,7 @@
 },
 "2755521": {
 "addr1": "경상남도 밀양시 중앙로 324 (내일동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -239,6 +253,7 @@
 },
 "3006019": {
 "addr1": "경상남도 함안군 가야읍 함안대로 277",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -256,6 +271,7 @@
 },
 "3019716": {
 "addr1": "경상남도 합천군 가야면 가야산로 1160",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -273,6 +289,7 @@
 },
 "3037482": {
 "addr1": "경상남도 진주시 진주대로879번길 18 (강남동)",
+"areacode": "36",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -290,6 +307,7 @@
 },
 "3110082": {
 "addr1": "경상남도 양산시 물금읍 황산공원1길 275",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -307,6 +325,7 @@
 },
 "3113790": {
 "addr1": "경상남도 함안군 가야읍 함안대로 619-1",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -324,6 +343,7 @@
 },
 "3333059": {
 "addr1": "경상남도 진주시 남강로 626 (본성동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -341,6 +361,7 @@
 },
 "3344495": {
 "addr1": "경상남도 하동군 하동읍 비파리",
+"areacode": "36",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -358,6 +379,7 @@
 },
 "3373572": {
 "addr1": "경상남도 합천군 가회면 황매산공원길 331",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -375,6 +397,7 @@
 },
 "3382929": {
 "addr1": "경상남도 산청군 산청읍 웅석봉로86번길 7",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -392,6 +415,7 @@
 },
 "3400809": {
 "addr1": "경상남도 통영시 도남동",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -409,6 +433,7 @@
 },
 "3482515": {
 "addr1": "경상남도 산청군 금서면 동의보감로555번길 45-2",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -426,6 +451,7 @@
 },
 "3485135": {
 "addr1": "경상남도 거제시 장승로 138 (장승포동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -443,6 +469,7 @@
 },
 "3488961": {
 "addr1": "경상남도 산청군 금서면 동의보감로555번길 45-6",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -460,6 +487,7 @@
 },
 "3494070": {
 "addr1": "경상남도 진주시 진성면 달음산로 313",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -477,6 +505,7 @@
 },
 "3542294": {
 "addr1": "경상남도 진주시 강남로 287 (강남동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -494,6 +523,7 @@
 },
 "3562944": {
 "addr1": "경상남도 창원시 성산구 외동반림로 9 (중앙동)",
+"areacode": "36",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -511,6 +541,7 @@
 },
 "4013337": {
 "addr1": "경상남도 통영시 도남동 642-4",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -528,6 +559,7 @@
 },
 "4046410": {
 "addr1": "경상남도 남해군 설천면 노량로183번길 27",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -545,6 +577,7 @@
 },
 "4056086": {
 "addr1": "경상남도 진주시 수곡면 대천리 226-1 진서중고등학교",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -562,6 +595,7 @@
 },
 "4057755": {
 "addr1": "경상남도 진주시 남강로 1655 (초전동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -579,6 +613,7 @@
 },
 "4058499": {
 "addr1": "경상남도 진주시 논개길 16 (본성동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -596,6 +631,7 @@
 },
 "4070865": {
 "addr1": "경상남도 밀양시 삼문동 1-1번지",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -613,6 +649,7 @@
 },
 "4098571": {
 "addr1": "경상남도 김해시 가야테마길 161 (어방동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -630,6 +667,7 @@
 },
 "4111479": {
 "addr1": "경상남도 통영시 산양읍",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -647,6 +685,7 @@
 },
 "4113301": {
 "addr1": "경상남도 창원시 마산합포구 돝섬1길 275 (월영동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -664,6 +703,7 @@
 },
 "4116358": {
 "addr1": "경상남도 밀양시 삼문동 1-1",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -681,6 +721,7 @@
 },
 "506470": {
 "addr1": "경상남도 김해시 장유로 551 (신문동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -698,6 +739,7 @@
 },
 "506600": {
 "addr1": "경상남도 산청군 금서면 동의보감로555번길 45-6",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -715,6 +757,7 @@
 },
 "506926": {
 "addr1": "경상남도 진주시 남강로 626 (본성동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -732,6 +775,7 @@
 },
 "507383": {
 "addr1": "경상남도 하동군 화개면 쌍계로 571-25",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -749,6 +793,7 @@
 },
 "507454": {
 "addr1": "경상남도 통영시 통영해안로 267 (항남동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -766,6 +811,7 @@
 },
 "523079": {
 "addr1": "경상남도 창원시 진해구 통신동",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -783,6 +829,7 @@
 },
 "580049": {
 "addr1": "경상남도 밀양시 밀양대공원로 112 (교동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -800,6 +847,7 @@
 },
 "589170": {
 "addr1": "경상남도 거제시 일운면 지세포해안로 15-44",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -817,6 +865,7 @@
 },
 "637693": {
 "addr1": "경상남도 창원시 마산합포구 월남동1가",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -834,6 +883,7 @@
 },
 "715421": {
 "addr1": "경상남도 밀양시 삼문동",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -851,6 +901,7 @@
 },
 "780198": {
 "addr1": "경상남도 하동군 북천면 경서대로 2253-9",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {

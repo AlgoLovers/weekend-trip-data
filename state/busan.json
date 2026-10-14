@@ -1,6 +1,7 @@
 {
 "1007868": {
 "addr1": "부산광역시 동구 이순신대로 164 (초량동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -18,6 +19,7 @@
 },
 "1032770": {
 "addr1": "부산광역시 해운대구 수영강변대로 120 (우동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -35,6 +37,7 @@
 },
 "1080734": {
 "addr1": "부산광역시 영도구 해양로301번길 45 (동삼동)",
+"areacode": "6",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -52,6 +55,7 @@
 },
 "1275743": {
 "addr1": "부산광역시 금정구 산성로 501-2 (금성동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -69,6 +73,7 @@
 },
 "1399532": {
 "addr1": "부산광역시 서구 송도해변로 100 (암남동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -86,6 +91,7 @@
 },
 "140799": {
 "addr1": "부산광역시 사상구 삼락동",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -103,6 +109,7 @@
 },
 "142080": {
 "addr1": "부산광역시 사하구 다대동",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -120,6 +127,7 @@
 },
 "1553601": {
 "addr1": "부산광역시 부산진구 동성로112번길 121-1",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -137,6 +145,7 @@
 },
 "1719667": {
 "addr1": "부산광역시 북구 낙동강자전거길 1455 (덕천동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -154,6 +163,7 @@
 },
 "1840830": {
 "addr1": "부산광역시 해운대구 APEC로 55 (우동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -171,6 +181,7 @@
 },
 "1907888": {
 "addr1": "부산광역시 강서구 대저1동",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -188,6 +199,7 @@
 },
 "2019366": {
 "addr1": "부산광역시 사하구 다대동",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -205,6 +217,7 @@
 },
 "2048902": {
 "addr1": "부산광역시 해운대구 해운대해변로 280 (중동)",
+"areacode": "6",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -222,6 +235,7 @@
 },
 "229048": {
 "addr1": "부산광역시 동래구 문화로 80 (명륜동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -239,6 +253,7 @@
 },
 "235076": {
 "addr1": "부산광역시 수영구 광안해변로 219 (광안동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -256,6 +271,7 @@
 },
 "2484237": {
 "addr1": "부산광역시 금정구 장전온천천로 48 (장전동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -273,6 +289,7 @@
 },
 "2486085": {
 "addr1": "부산광역시 중구 용미길9번길 6-45 (남포동1가)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -290,6 +307,7 @@
 },
 "2523149": {
 "addr1": "부산광역시 해운대구 APEC로 30 (우동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -307,6 +325,7 @@
 },
 "2536122": {
 "addr1": "부산 강서구 대저1동 1-17",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -324,6 +343,7 @@
 },
 "2558735": {
 "addr1": "부산광역시 금정구 장전온천천로 48 (장전동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -341,6 +361,7 @@
 },
 "2560161": {
 "addr1": "부산광역시 기장군 기장읍 동부산관광6로 59",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -358,6 +379,7 @@
 },
 "2644679": {
 "addr1": "부산광역시 해운대구 APEC로 55 (우동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -375,6 +397,7 @@
 },
 "2661307": {
 "addr1": "부산광역시 해운대구 수영강변대로 120 (우동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -392,6 +415,7 @@
 },
 "2702333": {
 "addr1": "부산광역시 수영구 광안해변로 219 (광안동)",
+"areacode": "6",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -409,6 +433,7 @@
 },
 "2704473": {
 "addr1": "부산광역시 해운대구 APEC로 30 (우동)",
+"areacode": "",
 "cpyrhtDivCd": "",
 "editions": {
 "2026": {
@@ -426,6 +451,7 @@
 },
 "2719122": {
 "addr1": "부산광역시 해운대구 수영강변대로 120 (우동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -443,6 +469,7 @@
 },
 "2736033": {
 "addr1": "부산광역시 해운대구 APEC로 55 (우동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -460,6 +487,7 @@
 },
 "2740921": {
 "addr1": "부산광역시 해운대구 APEC로 55 (우동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -477,6 +505,7 @@
 },
 "2786391": {
 "addr1": "부산광역시 수영구 광안해변로 219 (광안동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -494,6 +523,7 @@
 },
 "2818494": {
 "addr1": "부산광역시 부산진구 시민공원로 73 (범전동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -511,6 +541,7 @@
 },
 "2841074": {
 "addr1": "부산광역시 영도구 해양로301번길 55",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -528,6 +559,7 @@
 },
 "2860868": {
 "addr1": "부산광역시 기장군 일광읍 칠암리",
+"areacode": "6",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -545,6 +577,7 @@
 },
 "2868776": {
 "addr1": "부산광역시 부산진구 시민공원로 73 (범전동)",
+"areacode": "6",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -562,6 +595,7 @@
 },
 "2873292": {
 "addr1": "부산광역시 해운대구 수영강변대로 140 (우동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -579,6 +613,7 @@
 },
 "292977": {
 "addr1": "부산광역시 기장군 기장읍 기장해안로 605",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -596,6 +631,7 @@
 },
 "2952109": {
 "addr1": "부산광역시 중구 용두산길 37-55 (광복동2가)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -613,6 +649,7 @@
 },
 "2991394": {
 "addr1": "부산광역시 해운대구 수영강변대로 85 (우동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -630,6 +667,7 @@
 },
 "2992829": {
 "addr1": "부산광역시 영도구 해양로195번길 180 (동삼동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -647,6 +685,7 @@
 },
 "3006246": {
 "addr1": "부산광역시 해운대구 센텀중앙로 55 (우동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -664,6 +703,7 @@
 },
 "3016659": {
 "addr1": "부산광역시 부산진구 시민공원로 73 (범전동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -681,6 +721,7 @@
 },
 "3018117": {
 "addr1": "부산광역시 부산진구 전포동",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -698,6 +739,7 @@
 },
 "3020552": {
 "addr1": "부산광역시 금정구 남산로 27 (남산동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -715,6 +757,7 @@
 },
 "3115722": {
 "addr1": "부산광역시 중구 광복중앙로 13 (신창동1가)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -732,6 +775,7 @@
 },
 "3303393": {
 "addr1": "부산광역시 북구 덕천동 763",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -749,6 +793,7 @@
 },
 "3345610": {
 "addr1": "부산광역시 해운대구 APEC로 55 (우동)",
+"areacode": "6",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -766,6 +811,7 @@
 },
 "3359409": {
 "addr1": "부산광역시 영도구 해양로301번길 55 (동삼동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -783,6 +829,7 @@
 },
 "3383748": {
 "addr1": "부산광역시 사하구 몰운대1길 14 (다대동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -800,6 +847,7 @@
 },
 "3422647": {
 "addr1": "부산광역시 수영구 광남로 96 (광안동, 광안 포디움프레스티지 1)",
+"areacode": "6",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -817,6 +865,7 @@
 },
 "3434800": {
 "addr1": "부산광역시 동래구 중앙대로 1324 (온천동)",
+"areacode": "6",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -834,6 +883,7 @@
 },
 "3437916": {
 "addr1": "부산광역시 해운대구 수영강변대로 120 (우동)",
+"areacode": "6",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -851,6 +901,7 @@
 },
 "3492576": {
 "addr1": "부산광역시 해운대구 APEC로 55 (우동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -868,6 +919,7 @@
 },
 "3493864": {
 "addr1": "부산광역시 기장군 정관읍 구연3로 27",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -885,6 +937,7 @@
 },
 "3497353": {
 "addr1": "부산광역시 사하구 다대동 1674",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -902,6 +955,7 @@
 },
 "3498395": {
 "addr1": "부산광역시 수영구 광안해변로 219 (광안동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -919,6 +973,7 @@
 },
 "3514951": {
 "addr1": "부산광역시 해운대구 APEC로 55 (우동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -936,6 +991,7 @@
 },
 "3555363": {
 "addr1": "부산광역시 수영구 민락로6번길 29 (민락동)",
+"areacode": "6",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -953,6 +1009,7 @@
 },
 "3559571": {
 "addr1": "부산광역시 중구 용두산길 37-30 (광복동2가)",
+"areacode": "6",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -970,6 +1027,7 @@
 },
 "3576410": {
 "addr1": "부산광역시 중구 광복로 72-1 (광복동2가)",
+"areacode": "6",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -987,6 +1045,7 @@
 },
 "4041281": {
 "addr1": "부산광역시 사상구 사상로223번길 40 (괘법동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1004,6 +1063,7 @@
 },
 "4046353": {
 "addr1": "부산광역시 연제구 세병로 84 (거제동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1021,6 +1081,7 @@
 },
 "4055637": {
 "addr1": "부산광역시 해운대구 APEC로 55 (우동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1038,6 +1099,7 @@
 },
 "4056794": {
 "addr1": "부산광역시 부산진구 시민공원로 73 (범전동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1055,6 +1117,7 @@
 },
 "4077756": {
 "addr1": "부산광역시 해운대구 APEC로 55 (우동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1072,6 +1135,7 @@
 },
 "4080156": {
 "addr1": "부산광역시 해운대구 APEC로 55 (우동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1089,6 +1153,7 @@
 },
 "4088149": {
 "addr1": "부산광역시 중구 광복로 72-1 (광복동2가)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1106,6 +1171,7 @@
 },
 "4095478": {
 "addr1": "부산광역시 해운대구 APEC로 55 (우동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1123,6 +1189,7 @@
 },
 "4099532": {
 "addr1": "부산광역시 사하구 다대동 1674",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1140,6 +1207,7 @@
 },
 "4103719": {
 "addr1": "부산광역시 부산진구 서전로58번길",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1157,6 +1225,7 @@
 },
 "4108758": {
 "addr1": "부산광역시 해운대구 APEC로 55 (우동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1174,6 +1243,7 @@
 },
 "4109305": {
 "addr1": "부산광역시 부산진구 시민공원로 73 (범전동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1191,6 +1261,7 @@
 },
 "4115096": {
 "addr1": "부산광역시 동래구 명륜동 750",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1208,6 +1279,7 @@
 },
 "4122301": {
 "addr1": "부산광역시 남구 남동천로 128 (문현동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1225,6 +1297,7 @@
 },
 "506545": {
 "addr1": "부산광역시 수영구 광안해변로 219 (광안동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1242,6 +1315,7 @@
 },
 "566822": {
 "addr1": "부산광역시 해운대구 해운대해변로 280 (중동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {

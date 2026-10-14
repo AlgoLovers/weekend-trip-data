@@ -1,6 +1,7 @@
 {
 "1004281": {
 "addr1": "경기도 의왕시 왕송못동로 307 (월암동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -18,6 +19,7 @@
 },
 "1100492": {
 "addr1": "경기도 고양시 일산동구 호수로 595 (장항동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -35,6 +37,7 @@
 },
 "1147035": {
 "addr1": "경기도 여주시 천송동",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -52,6 +55,7 @@
 },
 "1250585": {
 "addr1": "경기도 이천시 경충대로2697번길 263",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -69,6 +73,7 @@
 },
 "1389228": {
 "addr1": "경기도 안산시 단원구 대부황금로 1480-7 (대부북동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -86,6 +91,7 @@
 },
 "1390147": {
 "addr1": "경기도 안양시 동안구 관평로 149 중앙공원관리부속",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -103,6 +109,7 @@
 },
 "141251": {
 "addr1": "경기도 여주시 금사면 이여로 1278",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -120,6 +127,7 @@
 },
 "141865": {
 "addr1": "경기도 의정부시 의정로 1",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -137,6 +145,7 @@
 },
 "142197": {
 "addr1": "경기도 시흥시 동서로 287 (장곡동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -154,6 +163,7 @@
 },
 "1720025": {
 "addr1": "경기도 남양주시 조안면 다산로747번길 11",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -171,6 +181,7 @@
 },
 "1725993": {
 "addr1": "경기도 고양시 일산동구 호수로 595",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -188,6 +199,7 @@
 },
 "1762432": {
 "addr1": "경기도 양평군 곱다니길 55-2",
+"areacode": "31",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -205,6 +217,7 @@
 },
 "1765272": {
 "addr1": "경기도 안성시 죽산면 곰내미길 48",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -222,6 +235,7 @@
 },
 "1810345": {
 "addr1": "경기도 안산시 상록구 성호로 113 (이동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -239,6 +253,7 @@
 },
 "1811380": {
 "addr1": "경기도 화성시 서신면 전곡항로 5",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -256,6 +271,7 @@
 },
 "1825520": {
 "addr1": "경기도 수원시 권선구 서둔로 166 (서둔동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -273,6 +289,7 @@
 },
 "1841539": {
 "addr1": "경기도 평택시 팽성읍 안정쇼핑로 11",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -290,6 +307,7 @@
 },
 "1916616": {
 "addr1": "경기도 수원시 수원천로392번길",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -307,6 +325,7 @@
 },
 "2029491": {
 "addr1": "경기도 과천시 관문로 64 (중앙동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -324,6 +343,7 @@
 },
 "2431706": {
 "addr1": "경기도 용인시 처인구 동백죽전대로 61 (삼가동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -341,6 +361,7 @@
 },
 "2484272": {
 "addr1": "경기도 가평군 청평면 에덴벚꽃길 139",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -358,6 +379,7 @@
 },
 "2508126": {
 "addr1": "경기도 양주시 회암사길 11 회암사지 박물관",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -375,6 +397,7 @@
 },
 "2515174": {
 "addr1": "경기도 고양시 일산서구 킨텍스로 217-60 (대화동)",
+"areacode": "31",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -392,6 +415,7 @@
 },
 "2541370": {
 "addr1": "경기도 여주시 흥천면 귀백리",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -409,6 +433,7 @@
 },
 "2550263": {
 "addr1": "경기도 양평군 양서면 양수로 93",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -426,6 +451,7 @@
 },
 "2591661": {
 "addr1": "경기도 연천군 전곡읍 전곡리",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -443,6 +469,7 @@
 },
 "2611559": {
 "addr1": "경기도 김포시 고촌읍 전호리 661",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -460,6 +487,7 @@
 },
 "2616316": {
 "addr1": "경기도 수원시 영통구 광교호수로 165 (하동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -477,6 +505,7 @@
 },
 "2657619": {
 "addr1": "경기도 수원시 팔달구 정조로 825 (남창동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -494,6 +523,7 @@
 },
 "2751090": {
 "addr1": "경기도 수원시 팔달구 장안동",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -511,6 +541,7 @@
 },
 "2755115": {
 "addr1": "경기도 고양시 일산동구 중앙로 1305-56 (장항동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -528,6 +559,7 @@
 },
 "2756476": {
 "addr1": "경기도 화성시 병점구 효행로481번길 21 (안녕동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -545,6 +577,7 @@
 },
 "2789700": {
 "addr1": "경기도 파주시 경의로 1151 (와동동)",
+"areacode": "31",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -562,6 +595,7 @@
 },
 "2802702": {
 "addr1": "경기도 포천시 포화로 236-11",
+"areacode": "31",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -579,6 +613,7 @@
 },
 "2812160": {
 "addr1": "경기도 파주시 문산읍 마정리 1153-3",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -596,6 +631,7 @@
 },
 "2833186": {
 "addr1": "경기도 시흥시 시청로 20 (장현동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -613,6 +649,7 @@
 },
 "2846034": {
 "addr1": "경기도 안양시 동안구 관평로 149 (평촌동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -630,6 +667,7 @@
 },
 "2849025": {
 "addr1": "경기도 광주시 남한산성면 산성리",
+"areacode": "",
 "cpyrhtDivCd": "",
 "editions": {
 "2026": {
@@ -647,6 +685,7 @@
 },
 "2853756": {
 "addr1": "경기도 화성시 효행구 봉담읍 동화새터길 133",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -664,6 +703,7 @@
 },
 "2859297": {
 "addr1": "경기도 광명시 철산동",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -681,6 +721,7 @@
 },
 "2870929": {
 "addr1": "경기도 연천군 전곡읍 양연로 1510",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -698,6 +739,7 @@
 },
 "293030": {
 "addr1": "경기도 안성시 보개면 남사당로 198-2",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -715,6 +757,7 @@
 },
 "2952027": {
 "addr1": "경기도 고양시 일산서구 킨텍스로 217-60 (대화동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -732,6 +775,7 @@
 },
 "2952960": {
 "addr1": "경기도 의정부시 호원동",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -749,6 +793,7 @@
 },
 "2961451": {
 "addr1": "경기도 파주시 탄현면 얼음실로 40",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -766,6 +811,7 @@
 },
 "2987791": {
 "addr1": "경기도 파주시 문산읍 임진각로 148-40",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -783,6 +829,7 @@
 },
 "2999418": {
 "addr1": "경기도 파주시 문산읍 임진각로 148-40",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -800,6 +847,7 @@
 },
 "3000969": {
 "addr1": "경기도 하남시 망월동 739-1",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -817,6 +865,7 @@
 },
 "3008665": {
 "addr1": "경기도 포천시 소흘읍 태봉로 216",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -834,6 +883,7 @@
 },
 "3008671": {
 "addr1": "경기도 수원시 권선구 수인로 154 (서둔동)",
+"areacode": "31",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -851,6 +901,7 @@
 },
 "3019085": {
 "addr1": "경기도 이천시 신둔면 도자예술로62번길 113-71",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -868,6 +919,7 @@
 },
 "3026189": {
 "addr1": "경기도 수원시 팔달구 효원로 1 (매산로3가)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -885,6 +937,7 @@
 },
 "3049823": {
 "addr1": "경기도 양평군 양평읍 군청앞길 2",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -902,6 +955,7 @@
 },
 "3099365": {
 "addr1": "경기도 가평군 가평읍 자라섬로 60",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -919,6 +973,7 @@
 },
 "3112269": {
 "addr1": "경기도 가평군 설악면 묵안로 906",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -936,6 +991,7 @@
 },
 "3113045": {
 "addr1": "경기도 파주시 회동길 145 (문발동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -953,6 +1009,7 @@
 },
 "3113265": {
 "addr1": "경기도 안양시 만안구 예술공원로 180 (안양동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -970,6 +1027,7 @@
 },
 "3113995": {
 "addr1": "경기도 양주시 광적면 삼일로 52",
+"areacode": "31",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -987,6 +1045,7 @@
 },
 "3114685": {
 "addr1": "경기도 수원시 권선구 수인로 154 (서둔동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1004,6 +1063,7 @@
 },
 "3300182": {
 "addr1": "경기도 양평군 청운면 가현리",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1021,6 +1081,7 @@
 },
 "3303554": {
 "addr1": "경기도 용인시 처인구 남사읍 처인성로 673",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1038,6 +1099,7 @@
 },
 "3333149": {
 "addr1": "경기도 광명시 시청로 20 (철산동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1055,6 +1117,7 @@
 },
 "3343831": {
 "addr1": "경기도 수원시 권선구 세화로 134 (서둔동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1072,6 +1135,7 @@
 },
 "3352452": {
 "addr1": "경기도 고양시 일산서구 킨텍스로 217-60 (대화동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1089,6 +1153,7 @@
 },
 "3355698": {
 "addr1": "경기도 가평군 가평읍 대곡리 174-3",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1106,6 +1171,7 @@
 },
 "3367339": {
 "addr1": "경기도 고양시 일산서구 킨텍스로 217-60 (대화동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1123,6 +1189,7 @@
 },
 "3368470": {
 "addr1": "경기도 수원시 권선구 세화로134번길 37 (서둔동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1140,6 +1207,7 @@
 },
 "3371765": {
 "addr1": "경기도 용인시 처인구 동백죽전대로 61 (삼가동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1157,6 +1225,7 @@
 },
 "3372236": {
 "addr1": "경기도 화성시 동탄구 여울동 1060",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1174,6 +1243,7 @@
 },
 "3372317": {
 "addr1": "경기도 포천시 관인면 사정리 66",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1191,6 +1261,7 @@
 },
 "3383613": {
 "addr1": "경기도 고양시 덕양구 원당로 16 (주교동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1208,6 +1279,7 @@
 },
 "3399435": {
 "addr1": "경기도 안성시 죽산면 용설호수길 101",
+"areacode": "31",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -1225,6 +1297,7 @@
 },
 "3401306": {
 "addr1": "경기도 김포시 대곶면 대명항1로 110-36",
+"areacode": "31",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -1242,6 +1315,7 @@
 },
 "3480383": {
 "addr1": "경기도 김포시 북변동",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1259,6 +1333,7 @@
 },
 "3486730": {
 "addr1": "경기도 수원시 영통구 광교중앙로 140 (하동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1276,6 +1351,7 @@
 },
 "3488421": {
 "addr1": "경기도 파주시 탄현면 헤이리로 16",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1293,6 +1369,7 @@
 },
 "3488940": {
 "addr1": "경기도 고양시 일산서구 킨텍스로 217-60 (대화동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1310,6 +1387,7 @@
 },
 "3492561": {
 "addr1": "경기도 수원시 장안구 정조로 1085 (송죽동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1327,6 +1405,7 @@
 },
 "3494053": {
 "addr1": "경기도 파주시 탄현면 얼음실로 40",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1344,6 +1423,7 @@
 },
 "3495437": {
 "addr1": "경기도 연천군 중면 군중로 324-1",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1361,6 +1441,7 @@
 },
 "3499401": {
 "addr1": "경기도 성남시 분당구 분당내곡로 121 (백현동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1378,6 +1459,7 @@
 },
 "3499540": {
 "addr1": "경기도 양평군 청운면 용두민속장터길 2",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1395,6 +1477,7 @@
 },
 "3501428": {
 "addr1": "경기도 시흥시 거북섬둘레길 42 (정왕동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1412,6 +1495,7 @@
 },
 "3512510": {
 "addr1": "경기도 수원시 권선구 서둔로 166 (서둔동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1429,6 +1513,7 @@
 },
 "3530974": {
 "addr1": "경기도 이천시 호법면 동산로395번길 139-38",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1446,6 +1531,7 @@
 },
 "3538195": {
 "addr1": "경기도 광명시 오리로 703 (하안동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1463,6 +1549,7 @@
 },
 "3538633": {
 "addr1": "경기도 과천시 도서관길 36 (별양동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1480,6 +1567,7 @@
 },
 "3540329": {
 "addr1": "경기도 여주시 세종대왕면 영릉로 269-10",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1497,6 +1585,7 @@
 },
 "3545306": {
 "addr1": "경기도 포천시 관인면 창동로 832",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1514,6 +1603,7 @@
 },
 "3547712": {
 "addr1": "경기 평택시 쇼핑로1",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1531,6 +1621,7 @@
 },
 "3551014": {
 "addr1": "경기도 의정부시 가능동",
+"areacode": "31",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -1548,6 +1639,7 @@
 },
 "3551206": {
 "addr1": "경기도 광명시 가학로 85번길",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1565,6 +1657,7 @@
 },
 "3552019": {
 "addr1": "경기도 수원시 영통구 광교중앙로 140 (하동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1582,6 +1675,7 @@
 },
 "3555835": {
 "addr1": "경기도 안산시 상록구 한양대학로 55 (사동)",
+"areacode": "31",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -1599,6 +1693,7 @@
 },
 "3560787": {
 "addr1": "경기도 양평군 양평읍 양근로 98-57",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1616,6 +1711,7 @@
 },
 "4033475": {
 "addr1": "경기도 파주시 회동길 145 (문발동)",
+"areacode": "",
 "cpyrhtDivCd": "",
 "editions": {
 "2026": {
@@ -1633,6 +1729,7 @@
 },
 "4054884": {
 "addr1": "경기 구리시 교문동 537",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1650,6 +1747,7 @@
 },
 "4056606": {
 "addr1": "경기도 광명시 오리로347번길 5-6 (소하동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1667,6 +1765,7 @@
 },
 "4058556": {
 "addr1": "경기도 수원시 영통구 도청로 지하36 (이의동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1684,6 +1783,7 @@
 },
 "4061420": {
 "addr1": "경기도 과천시 관문로 64 (중앙동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1701,6 +1801,7 @@
 },
 "4063702": {
 "addr1": "경기도 화성시 동탄구 동탄순환대로 69 (송동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1718,6 +1819,7 @@
 },
 "4063951": {
 "addr1": "경기도 안산시 상록구 해안로 615 (사동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1735,6 +1837,7 @@
 },
 "4087092": {
 "addr1": "경기도 파주시 문산읍 임진각로 148-40",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1752,6 +1855,7 @@
 },
 "4090802": {
 "addr1": "경기도 안산시 상록구 용신로 422 (본오동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1769,6 +1873,7 @@
 },
 "4095402": {
 "addr1": "경기도 수원시 팔달구 효원로307번길 20 (인계동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1786,6 +1891,7 @@
 },
 "4109423": {
 "addr1": "경기도 남양주시 고산로 254-2 (삼패동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1803,6 +1909,7 @@
 },
 "4109448": {
 "addr1": "경기도 양평군 양서면 양수로 93",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1820,6 +1927,7 @@
 },
 "4110051": {
 "addr1": "경기도 광주시 남한산성면 산성리 산23",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1837,6 +1945,7 @@
 },
 "4116982": {
 "addr1": "경기도 여주시 산북면 금품1로 36",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1854,6 +1963,7 @@
 },
 "4117047": {
 "addr1": "경기도 양평군 양동면 양동역길 20-4",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1871,6 +1981,7 @@
 },
 "4117084": {
 "addr1": "경기도 동두천시 생연동 571-85",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1888,6 +1999,7 @@
 },
 "4121348": {
 "addr1": "경기도 동두천시 동두천로 314 (생연동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1905,6 +2017,7 @@
 },
 "506690": {
 "addr1": "경기도 안성시 보개면 남사당로 198",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1922,6 +2035,7 @@
 },
 "513326": {
 "addr1": "경기도 안산시 단원구 광덕대로 157",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1939,6 +2053,7 @@
 },
 "527710": {
 "addr1": "경기도 이천시 신둔면 도자예술로5번길 109",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1956,6 +2071,7 @@
 },
 "527727": {
 "addr1": "경기도 이천시 백사면 원적로775번길 12",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1973,6 +2089,7 @@
 },
 "530450": {
 "addr1": "경기도 고양시 덕양구 행주로15번길 89 (행주외동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -1990,6 +2107,7 @@
 },
 "534220": {
 "addr1": "경기도 연천군 전곡읍 양연로 1510",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -2007,6 +2125,7 @@
 },
 "577335": {
 "addr1": "경기도 수원시 권선구 서둔로 166 (서둔동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -2024,6 +2143,7 @@
 },
 "589386": {
 "addr1": "경기도 부천시 원미구 길주로 1 (상동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -2041,6 +2161,7 @@
 },
 "623666": {
 "addr1": "경기도 포천시 영북면 산정호수로411번길 108",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -2058,6 +2179,7 @@
 },
 "629718": {
 "addr1": "경기도 광주시 곤지암읍 경충대로 727",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -2075,6 +2197,7 @@
 },
 "914138": {
 "addr1": "경기도 수원시 팔달구 정조로 825 (남창동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {

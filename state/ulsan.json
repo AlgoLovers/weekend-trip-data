@@ -1,6 +1,7 @@
 {
 "1253973": {
 "addr1": "울산광역시 남구 남부순환도로 377",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -18,6 +19,7 @@
 },
 "141375": {
 "addr1": "울산광역시 울주군 서생면 대송리",
+"areacode": "7",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -35,6 +37,7 @@
 },
 "1951053": {
 "addr1": "울산광역시 울주군 삼남읍 울산역로 255",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -52,6 +55,7 @@
 },
 "2555932": {
 "addr1": "울산광역시 울주군 상북면 알프스온천5길 103-8",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -69,6 +73,7 @@
 },
 "2933428": {
 "addr1": "울산광역시 중구 젊음의거리 27-4 (성남동)",
+"areacode": "7",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -86,6 +91,7 @@
 },
 "3017778": {
 "addr1": "울산광역시 중구 동헌길 167 (북정동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -103,6 +109,7 @@
 },
 "3104107": {
 "addr1": "울산광역시 중구 태화강북자전거길 518 (성남동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -120,6 +127,7 @@
 },
 "3361182": {
 "addr1": "울산광역시 울주군 삼남읍 수남벚꽃길 58-19",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -137,6 +145,7 @@
 },
 "3396705": {
 "addr1": "울산광역시 울주군 삼남읍 울산역로 255",
+"areacode": "7",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -154,6 +163,7 @@
 },
 "3501104": {
 "addr1": "울산광역시 중구 북정동",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -171,6 +181,7 @@
 },
 "3578130": {
 "addr1": "울산광역시 남구 대공원로 94 (옥동)",
+"areacode": "7",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -188,6 +199,7 @@
 },
 "4090201": {
 "addr1": "울산광역시 남구 대공원로 94 (옥동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -205,6 +217,7 @@
 },
 "4109998": {
 "addr1": "울산광역시 동구 성끝길 103 (방어동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -222,6 +235,7 @@
 },
 "4110074": {
 "addr1": "울산광역시 남구 번영로 200 (달동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -239,6 +253,7 @@
 },
 "506774": {
 "addr1": "울산광역시 울주군 온양읍 외고산3길 36",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -256,6 +271,7 @@
 },
 "538458": {
 "addr1": "울산광역시 북구 달천철장길 58 (달천동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -273,6 +289,7 @@
 },
 "553263": {
 "addr1": "울산광역시 남구 장생포고래로 244 (매암동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {

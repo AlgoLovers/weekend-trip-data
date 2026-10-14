@@ -1,6 +1,7 @@
 {
 "1270240": {
 "addr1": "대전광역시 유성구 어은로 27 (봉명동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -18,6 +19,7 @@
 },
 "141918": {
 "addr1": "대전광역시 유성구 엑스포로 87 (도룡동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -35,6 +37,7 @@
 },
 "1954396": {
 "addr1": "대전광역시 중구 문화동 1-40",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -52,6 +55,7 @@
 },
 "2488086": {
 "addr1": "대전광역시 서구 둔산동 1544",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -69,6 +73,7 @@
 },
 "2561795": {
 "addr1": "대전광역시 유성구 어은로 27 (봉명동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -86,6 +91,7 @@
 },
 "2770434": {
 "addr1": "대전광역시 유성구 대덕대로 480 (도룡동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -103,6 +109,7 @@
 },
 "2833003": {
 "addr1": "대전광역시 유성구 어은로 27 (봉명동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -120,6 +127,7 @@
 },
 "2915307": {
 "addr1": "대전광역시 유성구 어은로 27 (봉명동)",
+"areacode": "3",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -137,6 +145,7 @@
 },
 "2952467": {
 "addr1": "대전광역시 대덕구 대청로 607 (미호동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -154,6 +163,7 @@
 },
 "3352431": {
 "addr1": "대전광역시 서구 둔산대로 135 (만년동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -171,6 +181,7 @@
 },
 "3532372": {
 "addr1": "대전광역시 중구 중앙로 85 (선화동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -188,6 +199,7 @@
 },
 "3544873": {
 "addr1": "대전광역시 유성구 어은로 27 (봉명동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -205,6 +217,7 @@
 },
 "3551562": {
 "addr1": "대전광역시 유성구 가정로 201 (가정동)",
+"areacode": "3",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -222,6 +235,7 @@
 },
 "4098134": {
 "addr1": "대전광역시 유성구 온천로 89 (봉명동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -239,6 +253,7 @@
 },
 "4104786": {
 "addr1": "대전광역시 중구 중앙로79번길",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -256,6 +271,7 @@
 },
 "4106719": {
 "addr1": "대전광역시 서구 도안동로 246 (도안동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -273,6 +289,7 @@
 },
 "4115201": {
 "addr1": "대전광역시 서구 둔산대로 169 (만년동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -290,6 +307,7 @@
 },
 "981658": {
 "addr1": "대전광역시 중구 뿌리공원로 79 (침산동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {

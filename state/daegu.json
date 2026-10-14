@@ -1,6 +1,7 @@
 {
 "141963": {
 "addr1": "대구광역시 달서구 공원순환로 201 (성당동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -18,6 +19,7 @@
 },
 "1801011": {
 "addr1": "대구광역시 달서구 공원순환로 36 (두류동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -35,6 +37,7 @@
 },
 "1803449": {
 "addr1": "대구광역시 달성군 유가읍 일연선사길 10",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -52,6 +55,7 @@
 },
 "1846905": {
 "addr1": "대구광역시 달성군 화원읍 사문진로1길 33-18",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -69,6 +73,7 @@
 },
 "2374957": {
 "addr1": "대구광역시 달서구 이곡동",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -86,6 +91,7 @@
 },
 "2375382": {
 "addr1": "대구광역시 남구 고산4길 71 (봉덕동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -103,6 +109,7 @@
 },
 "2392105": {
 "addr1": "대구광역시 달성군 다사읍 강정본길 57",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -120,6 +127,7 @@
 },
 "2641128": {
 "addr1": "대구광역시 수성구 무학로 112 (두산동)",
+"areacode": "4",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -137,6 +145,7 @@
 },
 "2748395": {
 "addr1": "대구광역시 남구 앞산순환로 478 (대명동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -154,6 +163,7 @@
 },
 "2807078": {
 "addr1": "대구광역시 북구 엑스코로 10 (산격동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -171,6 +181,7 @@
 },
 "2877219": {
 "addr1": "대구광역시 북구 호암로 51 (침산동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -188,6 +199,7 @@
 },
 "3301281": {
 "addr1": "대구광역시 달성군 다사읍 강정본길 57",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -205,6 +217,7 @@
 },
 "3370452": {
 "addr1": "대구광역시 수성구 무학로 112 (두산동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -222,6 +235,7 @@
 },
 "3507102": {
 "addr1": "대구 동구 불로동 971-3",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -239,6 +253,7 @@
 },
 "3548867": {
 "addr1": "대구광역시 동구 금호강변로 278 (율하동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -256,6 +271,7 @@
 },
 "4079965": {
 "addr1": "대구광역시 달성군 다사읍 강정본길 57",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -273,6 +289,7 @@
 },
 "4109218": {
 "addr1": "대구광역시 군위군 삼국유사면 삼국유사로 250",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -290,6 +307,7 @@
 },
 "506516": {
 "addr1": "대구광역시 중구 달구벌대로415길 49 (남성로)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {

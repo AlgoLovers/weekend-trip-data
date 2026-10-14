@@ -1,6 +1,7 @@
 {
 "1071143": {
 "addr1": "충남 보령시 웅천읍 관당리 805-4 일원",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -18,6 +19,7 @@
 },
 "1087020": {
 "addr1": "충청남도 예산군 대흥면 의좋은형제길 3",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -35,6 +37,7 @@
 },
 "1139979": {
 "addr1": "충청남도 논산시 양촌면 양촌리",
+"areacode": "34",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -52,6 +55,7 @@
 },
 "1241762": {
 "addr1": "충청남도 서천군 서면 서인로 58",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -69,6 +73,7 @@
 },
 "140682": {
 "addr1": "충청남도 서천군 서면 서인로 58",
+"areacode": "34",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2024": {
@@ -86,6 +91,7 @@
 },
 "140752": {
 "addr1": "충청남도 서산시 해미면 남문2로 143",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -103,6 +109,7 @@
 },
 "140911": {
 "addr1": "충청남도 홍성군 서부면 남당항로213번길 1-1",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -120,6 +127,7 @@
 },
 "141268": {
 "addr1": "충청남도 서천군 홍원길 88",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -137,6 +145,7 @@
 },
 "141641": {
 "addr1": "충청남도 서천군 서인로 58",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -154,6 +163,7 @@
 },
 "1574707": {
 "addr1": "충청남도 예산군 덕산면 덕산온천로 183-5",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -171,6 +181,7 @@
 },
 "1825508": {
 "addr1": "충청남도 서산시 대산읍 삼길포1로 72-2",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -188,6 +199,7 @@
 },
 "229054": {
 "addr1": "충청남도 계룡시 신도안면 석계리",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -205,6 +217,7 @@
 },
 "2614763": {
 "addr1": "충청남도 공주시 우체국길 8",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -222,6 +235,7 @@
 },
 "2719507": {
 "addr1": "충청남도 금산군 금산읍 인삼광장로 30",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -239,6 +253,7 @@
 },
 "2756253": {
 "addr1": "충청남도 부여군 부여읍 정림로 83",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -256,6 +271,7 @@
 },
 "2823481": {
 "addr1": "충청남도 아산시 외암민속길 5",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -273,6 +289,7 @@
 },
 "2843521": {
 "addr1": "충청남도 예산군 광시면 시목대리길 62-19",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -290,6 +307,7 @@
 },
 "2865122": {
 "addr1": "충청남도 아산시 염치읍 현충사길 126",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -307,6 +325,7 @@
 },
 "2874329": {
 "addr1": "충청남도 홍성군 홍성읍 아문길 27",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -324,6 +343,7 @@
 },
 "2877244": {
 "addr1": "충청남도 공주시 공주대학로 92 (신관동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -341,6 +361,7 @@
 },
 "2950952": {
 "addr1": "충청남도 금산군 군북면 자진뱅이길 39",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -358,6 +379,7 @@
 },
 "2952484": {
 "addr1": "충청남도 천안시 서북구 번영로 208 (백석동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -375,6 +397,7 @@
 },
 "2992940": {
 "addr1": "충청남도 계룡시 신도안면 석계리 계룡대 활주로",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -392,6 +415,7 @@
 },
 "2996478": {
 "addr1": "충청남도 천안시 동남구 목천읍 독립기념관로 1",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -409,6 +433,7 @@
 },
 "3012116": {
 "addr1": "충청남도 부여군 부여읍 동남리",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -426,6 +451,7 @@
 },
 "3067459": {
 "addr1": "충청남도 보령시 고잠2길 55 (신흑동)",
+"areacode": "34",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -443,6 +469,7 @@
 },
 "3113022": {
 "addr1": "충청남도 부여군 규암면 수북로41번길 11-21",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -460,6 +487,7 @@
 },
 "3346571": {
 "addr1": "충청남도 논산시 강경읍 중앙리",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -477,6 +505,7 @@
 },
 "3489255": {
 "addr1": "충청남도 보령시 신흑동",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -494,6 +523,7 @@
 },
 "3530139": {
 "addr1": "충청남도 홍성군 홍북읍 충남대로 21",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -511,6 +541,7 @@
 },
 "3557873": {
 "addr1": "충청남도 아산시 염치읍 은행나무길 293",
+"areacode": "34",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -528,6 +559,7 @@
 },
 "3567099": {
 "addr1": "충청남도 홍성군 광천읍 광천1길 22",
+"areacode": "34",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2025": {
@@ -545,6 +577,7 @@
 },
 "4064297": {
 "addr1": "충청남도 공주시 중동(중학동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -562,6 +595,7 @@
 },
 "409187": {
 "addr1": "충청남도 홍성군 서부면 남당항로213번길 1-1",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -579,6 +613,7 @@
 },
 "4093783": {
 "addr1": "충청남도 홍성군 홍성읍 아문길 27",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -596,6 +631,7 @@
 },
 "4111666": {
 "addr1": "충청남도 천안시 동남구 충절로 410 (삼룡동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -613,6 +649,7 @@
 },
 "506376": {
 "addr1": "충청남도 논산시 강경읍 황산리 198",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -630,6 +667,7 @@
 },
 "506465": {
 "addr1": "충청남도 금산군 금산읍 인삼광장로 30",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -647,6 +685,7 @@
 },
 "506534": {
 "addr1": "충청남도 보령시 신흑동",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -664,6 +703,7 @@
 },
 "506647": {
 "addr1": "충청남도 아산시 온천대로 1496 (온천동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -681,6 +721,7 @@
 },
 "506935": {
 "addr1": "충청남도 천안시 서북구 번영로 208 (백석동)",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -698,6 +739,7 @@
 },
 "507480": {
 "addr1": "충청남도 서천군 한산면 충절로 1089",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -715,6 +757,7 @@
 },
 "525292": {
 "addr1": "충청남도 논산시 관촉동",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -732,6 +775,7 @@
 },
 "574047": {
 "addr1": "충청남도 부여군 부여읍 동남리",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -749,6 +793,7 @@
 },
 "639648": {
 "addr1": "충남 예산군 응봉면 후사리 39",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -766,6 +811,7 @@
 },
 "749800": {
 "addr1": "충청남도 서천군 장산로 232",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
@@ -783,6 +829,7 @@
 },
 "952988": {
 "addr1": "충청남도 부여군 부여읍 정림로 83",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "editions": {
 "2026": {
