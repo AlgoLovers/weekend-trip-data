@@ -161,6 +161,33 @@
 "tel": "010-4825-0560",
 "title": "울산 성남동 눈꽃축제"
 },
+"2986930": {
+"addr1": "울산광역시 남구 신정동",
+"areacode": "",
+"cpyrhtDivCd": "Type3",
+"detail": {
+"eventPlace": "울산 태화강국가정원 남구둔치",
+"feeRaw": "무료",
+"fetchedAt": "2026-10-20",
+"homepage": "http://xn--ob0b478atvdy1a72cf4o.kr/",
+"overview": "2026 울산공업축제가 10월8일(목)부터 10월11일(일)까지 태화강국가정원 남구 둔치에서 ''AX 대전환, All In Ulsan''을 주제로 펼쳐진다.",
+"phone": "052-276-8590",
+"playTime": "10:00~22:00 (전시 체험부스 10:00~20:00(일 10:00~18:00))"
+},
+"editions": {
+"2026": {
+"end": "2026-10-11",
+"start": "2026-10-08"
+}
+},
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/54/4116554_image2_1.JPG",
+"mapx": "129.3061940000",
+"mapy": "35.5505020000",
+"modifiedtime": "20261020180634",
+"sigungucode": "",
+"tel": "052-276-8590052-229-2724",
+"title": "울산공업축제"
+},
 "3017778": {
 "addr1": "울산광역시 중구 동헌길 167 (북정동)",
 "areacode": "",

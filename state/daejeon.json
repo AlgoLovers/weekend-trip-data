@@ -458,6 +458,33 @@
 "tel": "010-4439-9252",
 "title": "2026 대전 세계태양광총회 개최 기념 온시민에너지걷기한마당"
 },
+"4130910": {
+"addr1": "대전광역시 서구 한밭대로 664 (갈마동)",
+"areacode": "",
+"cpyrhtDivCd": "Type3",
+"detail": {
+"eventPlace": "월평도서관, 갈마문화공원",
+"feeRaw": "무료",
+"fetchedAt": "2026-10-20",
+"homepage": "https://www.seogu.go.kr/library/wolpyeonglib/contents/learning/board/09/board.09.001.motion?nttId=27324&bmode=detail&bbsId=BBSMSTR_000000000408&mnucd=MENU0600041",
+"overview": "서구 책축제는 책과 독서의 즐거움을 지역주민과 함게 나누는 대전광역시 서구의 대표 독서 축제로, 매년 가을에 개최되어 온 가족이 함께 즐기고 참여할 수 있는 다채로운 독서문화를 프로그램을 통해 책과 사람, 문화와 지역사회를 잇는 소통의 장을 마련한다. 작가의 만남, 공연, 음악회 등 풍성한 무대 프로그램을 비롯해 북큐레이션과 그림책 원화전시 등 책과 에술이 어우러지는 전시를 선보인다.",
+"phone": "042-288-4872",
+"playTime": "13:00~17:00"
+},
+"editions": {
+"2026": {
+"end": "2026-10-24",
+"start": "2026-10-24"
+}
+},
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/12/4130912_image2_1.jpg",
+"mapx": "127.3721708880",
+"mapy": "36.3570872057",
+"modifiedtime": "20261020094520",
+"sigungucode": "",
+"tel": "042-288-4872",
+"title": "대전 서구 책축제"
+},
 "981658": {
 "addr1": "대전광역시 중구 뿌리공원로 79 (침산동)",
 "areacode": "",
