@@ -899,27 +899,31 @@
 "areacode": "",
 "cpyrhtDivCd": "Type3",
 "detail": {
-"eventPlace": null,
-"feeRaw": "입장료 무료",
-"fetchedAt": "2026-10-14",
+"eventPlace": "순창발효테마파크 및 전통고추장민속마을 일원",
+"feeRaw": "입장료 무료 (일부 프로그램 유료)",
+"fetchedAt": "2026-10-28",
 "homepage": "https://www.xn--331br0fh8ct4gsta39jcye4pmo9gg0d0sk.com/",
 "overview": "K-FOOD를 대표하는 아이콘인 떡볶이를 주제로 지역 특화 축제가 발효의 고장 순창에서 열린다. 이 축제는 지역의 전통장을 활용한 이색적인 떡볶이 레시피를 중심으로, 전시·시식·체험·포토존 등 다양한 콘텐츠를 결합해 미식과 관광의 융합을 이룬다. 순창 고유의 발효 문화와 K-FOOD의 대중성을 접목해 남녀노소 누구나 즐길 수 있는 다채로운 즐길 거리를 제공하며, 가족 단위 방문객은 물론 MZ세대까지 아우르는 오감만족형 콘텐츠로 구성되어 있다.",
 "phone": "063-653-1827",
-"playTime": "10:00~17:00"
+"playTime": "10:00 ~ 17:00"
 },
 "editions": {
 "2025": {
 "end": "2025-11-16",
 "start": "2025-11-15"
+},
+"2026": {
+"end": "2026-11-22",
+"start": "2026-11-21"
 }
 },
 "firstimage": "https://tong.visitkorea.or.kr/cms/resource/39/3515039_image2_1.jpg",
 "mapx": "127.1123214189",
 "mapy": "35.3687554717",
-"modifiedtime": "20260730131250",
+"modifiedtime": "20261028174950",
 "sigungucode": "",
 "tel": "063-653-1827",
-"title": "순창 코리아 떡볶이 페스타"
+"title": "순창 KOREA 떡볶이 페스타"
 },
 "3410210": {
 "addr1": "전북특별자치도 완주군 소양면 송광수만로 472-23",
