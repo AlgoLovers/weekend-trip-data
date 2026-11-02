@@ -303,8 +303,8 @@
 "detail": {
 "eventPlace": "한라체육관 일원",
 "feeRaw": "무료",
-"fetchedAt": "2026-10-21",
-"homepage": null,
+"fetchedAt": "2026-11-02",
+"homepage": "https://sumbifairs.wixsite.com/jejupetfair",
 "overview": "2026 제주 반려동물 문화산업 한마당에서는 기존에 진행하던 제주 반려동물 문화축제와 제주펫페어가 동시에 개최된다. ''2026 제주 반려동물 문화축제''는 올바른 반려동물 문화 정착으로 사람과 동물이 행복한 제주를 위한 축제이다.",
 "phone": "064-711-1002",
 "playTime": "10:00~18:00"
@@ -318,7 +318,7 @@
 "firstimage": "https://tong.visitkorea.or.kr/cms/resource/13/4132213_image2_1.jpg",
 "mapx": "126.5187972389",
 "mapy": "33.4950628705",
-"modifiedtime": "20261021162752",
+"modifiedtime": "20261102163944",
 "sigungucode": "",
 "tel": "064-711-1002",
 "title": "제주 반려동물 문화산업 한마당"
@@ -735,11 +735,11 @@
 "detail": {
 "eventPlace": "서귀포시 대정읍 모슬포항 일원",
 "feeRaw": "무료",
-"fetchedAt": "2026-10-30",
+"fetchedAt": "2026-11-02",
 "homepage": "http://www.bangeofestival.com",
 "overview": "‘제주의 바다와 땅, 그리고 사람’을 하나로 잇는 축제로서 청정 제주 바다가 만들어 낸 겨울의 풍미 방어와 마늘·감자 등 지역특산물의 우수성을 하나의 축제로 연결하여 브랜드 가치를 높이고, 관광객 유입과 소비 확대로 지역경제를 활성화한다.",
 "phone": "064-794-8032",
-"playTime": "10:00~17:00"
+"playTime": "10:00~19:00"
 },
 "editions": {
 "2026": {
@@ -750,10 +750,10 @@
 "firstimage": "https://tong.visitkorea.or.kr/cms/resource/12/4141112_image2_1.jpg",
 "mapx": "126.2520492078",
 "mapy": "33.2144983016",
-"modifiedtime": "20261030164737",
+"modifiedtime": "20261102093128",
 "sigungucode": "",
 "tel": "064-794-8032",
-"title": "최남단 방어 축제"
+"title": "최남단방어축제"
 },
 "577899": {
 "addr1": "제주특별자치도 서귀포시 하효동 999번지선",
