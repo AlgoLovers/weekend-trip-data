@@ -330,7 +330,7 @@
 "detail": {
 "eventPlace": "충남 계룡대 활주로",
 "feeRaw": "무료",
-"fetchedAt": "2026-10-14",
+"fetchedAt": "2026-11-04",
 "homepage": "https://armyfest.or.kr",
 "overview": "2026년 지상군페스티벌은 육군이 주최하는 대한민국 최대 군 문화축제로 국민들에게 육군의 발전과 미래정책을 홍보하고 군에 대한 신뢰도 증진과 긍정적 가치 확산 등 공익 목적의 비영리 행사이며, 10. 1.(목)부터 10. 5.(월)까지 5일간 충남 계룡대 활주로에서 개최된다.",
 "phone": "042-550-5310",
@@ -342,10 +342,10 @@
 "start": "2026-10-01"
 }
 },
-"firstimage": "https://tong.visitkorea.or.kr/cms/resource/03/4091903_image2_1.JPG",
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/71/4144871_image2_1.JPG",
 "mapx": "127.2359510000",
 "mapy": "36.3085210000",
-"modifiedtime": "20261001102459",
+"modifiedtime": "20261104163859",
 "sigungucode": "",
 "tel": "042-550-5310~2",
 "title": "지상군페스티벌"
@@ -977,30 +977,34 @@
 },
 "3557873": {
 "addr1": "충청남도 아산시 염치읍 은행나무길 293",
-"areacode": "34",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "detail": {
 "eventPlace": "아산 은행나무길 (아산시이순신관광체험센터 앞)",
 "feeRaw": "무료",
-"fetchedAt": "2026-10-14",
-"homepage": "https://culture.asan.go.kr/_culture/new/developer/m_board/m_board.asp?tb_nm=tbl_business_culture_art&m_mode=view&idx=304&PageNo=1&genre=01&txtKeyword=&sltOption=&category=&req_year=&req_no=&req_ref=&req_step=&req_lev=&introduce=F",
-"overview": "2025 은행나무길 거리예술제는 아산시 대표 가을 명소인 은행나무길 일원에서 열리는 시민 참여형 거리예술 축제이다. 올해는 ‘은행나무길 서커스 카니발’을 주제로, 가을 정취 속에서 서커스·마임·저글링·타악 퍼포먼스 등 누구나 즐길 수 있는 넌버벌 공연과 다채로운 체험 프로그램을 선보인다. 행사 기간 동안 거리공연존, 체험존, 판매존을 중심으로 전문 예술단체와 지역예술인이 함께 무대를 꾸미며, 어린이를 위한 서커스 체험공간과 가족 단위 체험 부스를 통해 관람객의 적극적인 참여를 유도한다.",
+"fetchedAt": "2026-11-04",
+"homepage": "https://culture.asan.go.kr/",
+"overview": "2026 은행나무길 거리예술제는 아산시 대표 가을 명소인 은행나무길 일원에서 열리는 시민 참여형 거리예술 축제이다. 올해는 「예술·놀이·쉼」을 주제로, 가을 정취 속에서 서커스·마임·저글링·타악 퍼포먼스 등 남녀노소 누구나 즐길 수 있는 넌버벌 공연과 다채로운 체험 프로그램을 선보인다. 행사 기간 동안 거리공연존, 체험존, 로컬존, 휴게존을 중심으로 전문 예술단체와 지역예술인이 함께 무대를 꾸미며, 어린이를 위한 서커스 체험공간과 가족 단위 체험 부스를 통해 관람객의 적극적인 참여를 유도한다.",
 "phone": "041-540-2428",
-"playTime": "11:00~17:00"
+"playTime": "13:00~17:00"
 },
 "editions": {
 "2025": {
 "end": "2025-11-02",
 "start": "2025-11-01"
+},
+"2026": {
+"end": "2026-11-15",
+"start": "2026-11-14"
 }
 },
-"firstimage": "http://tong.visitkorea.or.kr/cms/resource/72/3557872_image2_1.png",
-"mapx": "127.0188136657",
-"mapy": "36.8005908030",
-"modifiedtime": "20251028144552",
-"sigungucode": "9",
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/37/4144137_image2_1.jpg",
+"mapx": "127.0187977731",
+"mapy": "36.8005410219",
+"modifiedtime": "20261104094631",
+"sigungucode": "",
 "tel": "041-540-2428",
-"title": "2025 은행나무길 거리예술제"
+"title": "2026 은행나무길 거리예술제  〈아트 스트리트：Art Street〉"
 },
 "3567099": {
 "addr1": "충청남도 홍성군 광천읍 광천1길 22",
