@@ -168,8 +168,8 @@
 "detail": {
 "eventPlace": "서산시 해미읍성 일원",
 "feeRaw": "무료(「600년의 식탁」 유료)",
-"fetchedAt": "2026-10-15",
-"homepage": "http://www.haemifest.com/",
+"fetchedAt": "2026-11-05",
+"homepage": null,
 "overview": "제23회 서산해미읍성축제는 2026년 10월 9일부터 10월 11일까지 3일간 서산 해미읍성 일원에서 열리는 역사문화축제이다. 올해 축제는 ‘HAEMI UNIVERSE : 1421, 시간의 문이 열리다’를 주제로, 600년의 역사를 지닌 해미읍성의 공간과 이야기를 다양한 공연과 체험으로 풀어낸 축제이다.",
 "phone": "041-681-3560",
 "playTime": "10:00~22:00"
@@ -183,7 +183,7 @@
 "firstimage": "https://tong.visitkorea.or.kr/cms/resource/76/4113676_image2_1.jpg",
 "mapx": "126.5503836893",
 "mapy": "36.7135565791",
-"modifiedtime": "20261015105252",
+"modifiedtime": "20261105111608",
 "sigungucode": "",
 "tel": "041-681-3560",
 "title": "서산해미읍성축제"

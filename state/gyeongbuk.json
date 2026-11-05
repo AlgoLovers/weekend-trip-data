@@ -141,7 +141,7 @@
 "detail": {
 "eventPlace": "칠곡보생태공원",
 "feeRaw": "무료(판매 및 일부 체험 유료)",
-"fetchedAt": "2026-10-14",
+"fetchedAt": "2026-11-05",
 "homepage": null,
 "overview": "칠곡낙동강평화축제는 한국전쟁 당시 최후의 방어선이었던 낙동강 전투의 역사적 의미를 기리고, 호국 정신을 되새기기 위한 축제다. 1950년 평범한 사람들이 목숨을 걸고 지켜낸 대한민국의 가치를 기억하고, 나라를 지킨 이들에게 감사를 전하기 위해 다양한 프로그램을 운영한다.",
 "phone": "054-979-3215",
@@ -153,10 +153,10 @@
 "start": "2026-10-15"
 }
 },
-"firstimage": "https://tong.visitkorea.or.kr/cms/resource/66/4080666_image2_1.jpg",
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/03/4145403_image2_1.jpg",
 "mapx": "128.4010940000",
 "mapy": "36.0184680000",
-"modifiedtime": "20261008145046",
+"modifiedtime": "20261105132555",
 "sigungucode": "",
 "tel": "054-979-3215",
 "title": "칠곡낙동강평화축제"
@@ -1005,7 +1005,7 @@
 "detail": {
 "eventPlace": "칠곡평화분수",
 "feeRaw": "무료(판매 및 일부 체험 유료)",
-"fetchedAt": "2026-10-14",
+"fetchedAt": "2026-11-05",
 "homepage": "https://www.chilgokctf.or.kr/",
 "overview": "국내 최대 아카시아 밀원지 칠곡군의 벌꿀로 만든 '칠곡 꿀맥(꿀맥주)'과 수도승이 독일 정통 방식으로 만든 '분도소시지'를 비롯하여 다양한 먹거리를 즐길 수 있는 축제다. 2026 칠곡 꿀맥 페스티벌은 꿀맥주를 즐기는 성인뿐만 아니라 가족 단위 방문객이 함께 즐길 수 있는 다양한 프로그램을 마련했다. 꿀을 테마로 한 만들기 체험과 시식 프로그램, 그리고 여름철 시원함을 물씬 느낄 수 있는 물총놀이와 워터슬라이드가 함께 운영되어 한층 재미를 더할 예정이다.",
 "phone": "054-979-3212",
@@ -1017,10 +1017,10 @@
 "start": "2026-07-11"
 }
 },
-"firstimage": "https://tong.visitkorea.or.kr/cms/resource/06/4061206_image2_1.jpg",
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/86/4145486_image2_1.jpg",
 "mapx": "128.3959320000",
 "mapy": "35.9987650000",
-"modifiedtime": "20260630094435",
+"modifiedtime": "20261105133238",
 "sigungucode": "",
 "tel": "054-979-3212",
 "title": "칠곡 꿀맥 페스티벌"
@@ -1792,7 +1792,7 @@
 "detail": {
 "eventPlace": "청송군 청송읍 용전천 현비암 일원",
 "feeRaw": "무료(일부 체험 프로그램 유료)",
-"fetchedAt": "2026-11-04",
+"fetchedAt": "2026-11-05",
 "homepage": "https://csapplefestival.kr/",
 "overview": "청송사과축제는 대한민국 대표 사과 주산지인 청송에서 청송사과를 주제로 개최되는 지역 대표 축제이다. 청송사과의 우수성을 널리 알리고 지역 농특산물과 관광자원을 함께 소개하기 위해 매년 개최되고 있으며, 축제 기간에는 청송사과를 활용한 다양한 체험·전시·판매 프로그램과 공연이 펼쳐진다. 축제장 곳곳에서는 청송사과를 직접 보고 맛볼 수 있는 농특산물 판매장을 비롯해 사과를 소재로 한 참여형 프로그램과 이벤트를 즐길 수 있으며, 지역 주민과 관광객이 함께 참여하는 공연과 문화행사도 만나볼 수 있다.",
 "phone": "054-873-3686",
@@ -1807,7 +1807,7 @@
 "firstimage": "https://tong.visitkorea.or.kr/cms/resource/01/4117301_image2_1.JPG",
 "mapx": "129.0521130873",
 "mapy": "36.4340985891",
-"modifiedtime": "20261104163920",
+"modifiedtime": "20261105085539",
 "sigungucode": "",
 "tel": "054-873-3686",
 "title": "청송사과축제"
