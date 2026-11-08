@@ -1,0 +1,51 @@
+# 매일 붐빔 예보 파일 갱신. 앱(weekend-trip)이 하루 한 번 crowd/<지역>.json 을 받아 "붐빌 듯/한적할 듯" 배지를 붙인다.
+# 축제 작업(00:05) 뒤에 돈다. 집중률 서비스는 축제와 따로 하루 한도를 쓴다.
+name: crowd
+
+on:
+  schedule:
+    - cron: "35 15 * * *"   # 매일 00:35 KST
+  workflow_dispatch:
+    inputs:
+      regions:
+        description: "지역(쉼표로 여러 개, 비우면 전체)"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crowd
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test
+        run: python3 -m unittest -q scripts/test_crowd.py
+
+      - name: Build crowd
+        env:
+          DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
+        run: |
+          ARGS=""
+          [ -n "${{ inputs.regions }}" ] && ARGS="--regions ${{ inputs.regions }}"
+          python3 -u scripts/crowd.py $ARGS
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add crowd/
+          git diff --cached --quiet && { echo "변경 없음"; exit 0; }
+          git commit -m "붐빔 예보 $(TZ=Asia/Seoul date +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push
