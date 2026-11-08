@@ -22,6 +22,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
 from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -52,60 +53,65 @@ class DailyLimit(RuntimeError):
     pass
 
 
-def api(operation: str, **params) -> dict:
+def get(operation: str, params: dict) -> str:
     key = os.environ.get("DATA_GO_KR_KEY", "").strip()
     if not key:
         sys.exit("DATA_GO_KR_KEY가 없습니다. 저장소 Settings → Secrets and variables → Actions에 등록하세요.")
-    q = {"serviceKey": key, "MobileOS": "AND", "MobileApp": "WeekendTripData", "_type": "json",
-         **{k: v for k, v in params.items() if v is not None}}
-    url = f"{BASE}/{operation}?{urllib.parse.urlencode(q)}"
-    calls[operation.split("/")[0]] += 1
+    q = urllib.parse.urlencode({"serviceKey": key, "MobileOS": "AND", "MobileApp": "WeekendTripData", "_type": "json", **params})
     last = None
     for attempt in range(3):
         try:
-            with urllib.request.urlopen(url, timeout=40) as r:
-                raw = r.read().decode("utf-8")
+            calls[operation.split("/")[0]] += 1
+            with urllib.request.urlopen(f"{BASE}/{operation}?{q}", timeout=40) as r:
+                text = r.read().decode("utf-8", errors="replace")
+            if "LIMITED_NUMBER_OF_SERVICE_REQUESTS_EXCEEDS" in text:
+                raise DailyLimit(operation)
+            return text
         except urllib.error.HTTPError as e:
-            if e.code == 429:
-                raise DailyLimit(f"{operation}: HTTP 429")
             last = e
-            time.sleep(5 * (attempt + 1))
-            continue
+            if e.code == 429:
+                if attempt < 2:
+                    time.sleep(5 * (attempt + 1))
+                    continue
+                raise DailyLimit(f"{operation}: 429")
+            raise RuntimeError(f"{operation}: HTTP {e.code}")
         except (urllib.error.URLError, TimeoutError) as e:
             last = e
             time.sleep(5 * (attempt + 1))
-            continue
-        try:
-            data = json.loads(raw)
-        except json.JSONDecodeError:
-            if "LIMITED" in raw:
-                raise DailyLimit(f"{operation}: {raw[:120]}")
-            raise RuntimeError(f"{operation}: JSON이 아닌 응답(키 오류일 수 있음): {raw[:200]}")
-        h = data.get("response", {}).get("header", data)
-        code = str(h.get("resultCode", ""))
-        if code == "22":
-            raise DailyLimit(f"{operation}: {h.get('resultMsg')}")
-        if code not in ("0000", "00"):
-            raise RuntimeError(f"{operation}: {code} {h.get('resultMsg')}")
-        return data["response"]["body"]
     raise RuntimeError(f"{operation}: 네트워크 오류 {last}")
 
 
-def items(body: dict) -> list[dict]:
-    it = body.get("items") or {}
-    if not isinstance(it, dict):
-        return []
-    x = it.get("item") or []
-    return x if isinstance(x, list) else [x]
+def parse(text: str, operation: str) -> tuple[list[dict], int]:
+    """JSON이나 XML 응답 → (항목, totalCount). weekend-trip pipeline/popularity와 같은 처리."""
+    t = text.lstrip()
+    if t.startswith("{"):
+        d = json.loads(t)
+        if "response" not in d:
+            raise RuntimeError(f"{operation}: {t[:200]}")
+        h = d["response"].get("header", {})
+        if str(h.get("resultCode")) not in ("0000", "00", "0"):
+            raise RuntimeError(f"{operation}: {h.get('resultCode')} {h.get('resultMsg')} {t[:160]}")
+        body = d["response"].get("body") or {}
+        it = body.get("items")
+        rows = []
+        if isinstance(it, dict):
+            x = it.get("item") or []
+            rows = x if isinstance(x, list) else [x]
+        return rows, int(body.get("totalCount") or 0)
+    root = ET.fromstring(t)
+    code = root.findtext(".//resultCode") or root.findtext(".//returnReasonCode")
+    if code not in ("0000", "00", "0", None):
+        raise RuntimeError(f"{operation}: {code} {root.findtext('.//resultMsg') or root.findtext('.//returnAuthMsg')}")
+    rows = [{c.tag: (c.text or "").strip() for c in item} for item in root.iter("item")]
+    return rows, int(root.findtext(".//totalCount") or 0)
 
 
 def paged(operation: str, **params) -> list[dict]:
     out, page = [], 1
     while True:
-        body = api(operation, numOfRows=1000, pageNo=page, **params)
-        got = items(body)
-        out += got
-        if not got or len(out) >= int(body.get("totalCount") or 0):
+        rows, total = parse(get(operation, {**params, "numOfRows": 1000, "pageNo": page}), operation)
+        out += rows
+        if not rows or len(out) >= total:
             return out
         page += 1
 
