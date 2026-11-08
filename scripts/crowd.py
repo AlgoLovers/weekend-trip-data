@@ -7,6 +7,7 @@
   앱이 장소 이름·시군구로 자기 장소와 잇는다.
 - 전남·광주는 이 API에 자료가 없다(2026-11 확인). 빈 파일이 나온다.
 - 필요: DATA_GO_KR_KEY. 표준 라이브러리만. 하루 약 350번 부른다(서비스별 하루 1,000번).
+- 시군구 코드는 scripts/signgu.json(법정동, 2026 통합 전남광주 반영)을 쓴다. 바뀌면 이 파일만 고친다.
 
 실행: python3 scripts/crowd.py [--regions seoul,busan]
 """
@@ -108,16 +109,9 @@ def paged(operation: str, **params) -> list[dict]:
 
 
 def signgu_list() -> list[dict]:
-    """법정동 시도·시군구(TourAPI ldongCode2). 일반 구가 있는 시는 시 단위만 남긴다(구 단위는 예측이 없다)."""
-    out = []
-    for a in items(api("KorService2/ldongCode2", numOfRows=100)):
-        rc = str(a.get("code") or a.get("lDongRegnCd"))
-        if rc == "36110":  # 세종은 시도가 곧 시군구
-            out.append({"areaCd": rc, "signguCd": rc, "signguNm": "세종특별자치시"})
-            continue
-        for g in items(api("KorService2/ldongCode2", lDongRegnCd=rc, numOfRows=100)):
-            out.append({"areaCd": rc, "signguCd": str(g.get("code") or g.get("lDongSignguCd")),
-                        "signguNm": g.get("name") or g.get("lDongSignguNm") or ""})
+    """법정동 시도·시군구(scripts/signgu.json, TourAPI ldongCode2에서 한 번 받아 둔 것).
+    일반 구가 있는 시는 시 단위만 남긴다(구 단위는 예측이 없다)."""
+    out = json.loads((ROOT / "scripts/signgu.json").read_text(encoding="utf-8"))
     codes = {(s["areaCd"], s["signguCd"]) for s in out}
     return [s for s in out if not (len(s["signguCd"]) == 3 and not s["signguCd"].endswith("0")
                                    and (s["areaCd"], s["signguCd"][:-1] + "0") in codes)]
