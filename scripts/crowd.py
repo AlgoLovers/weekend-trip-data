@@ -30,6 +30,8 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://apis.data.go.kr/B551011"
 KST = timezone(timedelta(hours=9))
 DAYS = 7
+# 작업 제한(30분) 안에 끝내려고, 이만큼 지나면 다 받은 지역만 쓰고 멈춘다(나머지는 어제 파일 유지)
+BUDGET_SEC = 20 * 60
 # 집중률 구간. 예측값이라 화면에는 "~할 듯"으로만 쓴다.
 QUIET_BELOW = 30.0
 BUSY_FROM = 70.0
@@ -61,7 +63,7 @@ def api(operation: str, **params) -> dict:
     last = None
     for attempt in range(3):
         try:
-            with urllib.request.urlopen(url, timeout=30) as r:
+            with urllib.request.urlopen(url, timeout=40) as r:
                 raw = r.read().decode("utf-8")
         except urllib.error.HTTPError as e:
             if e.code == 429:
@@ -154,12 +156,16 @@ def main() -> None:
     now = datetime.now(KST)
     start = now.replace(hour=0, minute=0, second=0, microsecond=0)
     by_region: dict[str, list[list[str]]] = defaultdict(list)
+    todo = [s for s in signgu_list() if AREA_REGION.get(s["areaCd"]) and (not want or AREA_REGION[s["areaCd"]] in want)]
+    left = Counter(AREA_REGION[s["areaCd"]] for s in todo)  # 지역마다 남은 시군구 수
     failed = []
+    began = time.monotonic()
     try:
-        for s in signgu_list():
-            region = AREA_REGION.get(s["areaCd"])
-            if not region or (want and region not in want):
-                continue
+        for n, s in enumerate(todo, 1):
+            if time.monotonic() - began > BUDGET_SEC:
+                print(f"시간 제한: {n - 1}/{len(todo)} 시군구에서 멈춤", flush=True)
+                break
+            region = AREA_REGION[s["areaCd"]]
             a, c = target(s)
             try:
                 rows = paged("TatsCnctrRateService/tatsCnctrRatedList", areaCd=a, signguCd=c)
@@ -168,16 +174,20 @@ def main() -> None:
                 continue
             for name, lv in sorted(levels_for(rows, start).items()):
                 by_region[region].append([s["signguNm"], name, lv])
+            left[region] -= 1
+            if n % 20 == 0:
+                print(f"  {n}/{len(todo)} 시군구, {int(time.monotonic() - began)}초", flush=True)
     except DailyLimit as e:
-        print(f"하루 한도: {e}. 받은 지역만 씁니다.")
+        print(f"하루 한도: {e}. 다 받은 지역만 씁니다.", flush=True)
     out_dir = ROOT / "crowd"
     out_dir.mkdir(exist_ok=True)
     regions = sorted(want or set(AREA_REGION.values()))
     for region in regions:
         sites = by_region.get(region, [])
         path = out_dir / f"{region}.json"
-        # 한도·오류로 하나도 못 받았으면 어제 파일을 둔다(앱은 날짜가 지난 칸을 쓰지 않는다)
-        if not sites and path.exists() and region != "jeonnam":
+        # 다 못 받은 지역은 어제 파일을 둔다(앱은 날짜가 지난 칸을 쓰지 않는다)
+        if left.get(region, 0) > 0 or (not sites and path.exists() and region != "jeonnam"):
+            print(f"- {region}: 이번엔 건너뜀(남은 시군구 {left.get(region, 0)})")
             continue
         doc = {"generatedAt": now.isoformat(timespec="seconds"), "start": start.strftime("%Y%m%d"), "days": DAYS,
                "levels": {"0": "한적할 듯", "1": "보통", "2": "붐빌 듯"}, "sites": sites}
