@@ -1112,12 +1112,12 @@
 },
 "3460731": {
 "addr1": "전남광주통합특별시 동구 중앙로160번길 16-7 (불로동)",
-"areacode": "5",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "detail": {
 "eventPlace": null,
 "feeRaw": "티켓 5,000원(장애인 좌석 예약 별도 문의)",
-"fetchedAt": "2026-10-14",
+"fetchedAt": "2026-11-11",
 "homepage": "http://www.wffig.com/",
 "overview": "매년 광주에서 열리는 이 축제는 영화 상영뿐만 아니라 워크숍, 세미나, 패널 토크 등도 진행되어, 영화에 대한 심도 깊은 논의와 함께 여성 영화인의 창작 환경을 향상시키는 데 기여한다. 광주여성영화제는 여성 영화인의 네트워크를 활성화시키고, 성평등과 사회적 메시지를 전파하는 중요한 문화 행사로 자리 잡았다.",
 "phone": "062-515-6560",
@@ -1129,11 +1129,11 @@
 "start": "2025-11-06"
 }
 },
-"firstimage": "http://tong.visitkorea.or.kr/cms/resource/26/3460726_image2_1.jpg",
-"mapx": "126.9146634529",
-"mapy": "35.1468609363",
-"modifiedtime": "20260630184428",
-"sigungucode": "3",
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/26/3460726_image2_1.jpg",
+"mapx": "126.9146502114",
+"mapy": "35.1468211133",
+"modifiedtime": "20261111084803",
+"sigungucode": "",
 "tel": "062-515-6560",
 "title": "광주여성영화제"
 },
@@ -1935,7 +1935,7 @@
 "detail": {
 "eventPlace": "금남로, 충장로, 5.18민주광장, 예술의거리 일원",
 "feeRaw": "무료",
-"fetchedAt": "2026-11-10",
+"fetchedAt": "2026-11-11",
 "homepage": "http://recollection.kr/index.php",
 "overview": "광주 추억의 충장축제는 전남광주통합특별시 최고의 상권인 전남광주 동구 '충장로'에서 시작된 전남광주통합특별시 최대 규모의 광주대표 축제이다. 이 축제는 '추억'이라는 보편적 소재를 통해 세대와 계층을 아우르는 '국내 최초의 추억 테마 축제'로서 특별한 의미를 지닌다. 누구나 간직하고 있는 소중한 추억을 공유하며, 다양한 연령대와 배경을 가진 사람들이 하나로 어우러지는 새로운 추억을 만들어내는 추억생산의 공간을 만들어낸다.",
 "phone": "062-608-4672",
@@ -1950,7 +1950,7 @@
 "firstimage": "https://tong.visitkorea.or.kr/cms/resource/15/4151215_image2_1.jpg",
 "mapx": "126.9158700000",
 "mapy": "35.1502410000",
-"modifiedtime": "20261110180930",
+"modifiedtime": "20261111084803",
 "sigungucode": "",
 "tel": "062-608-4672",
 "title": "광주 추억의 충장축제"

@@ -168,7 +168,7 @@
 "detail": {
 "eventPlace": "울산 태화강국가정원 남구둔치",
 "feeRaw": "무료",
-"fetchedAt": "2026-10-24",
+"fetchedAt": "2026-11-11",
 "homepage": "http://xn--ob0b478atvdy1a72cf4o.kr/",
 "overview": "2026 울산공업축제가 10월8일(목)부터 10월11일(일)까지 태화강국가정원 남구 둔치에서 ''AX 대전환, All In Ulsan''을 주제로 펼쳐진다.",
 "phone": "052-276-8590",
@@ -180,10 +180,10 @@
 "start": "2026-10-08"
 }
 },
-"firstimage": "https://tong.visitkorea.or.kr/cms/resource/54/4116554_image2_1.JPG",
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/41/4153041_image2_1.jpg",
 "mapx": "129.3061940000",
 "mapy": "35.5505020000",
-"modifiedtime": "20261023104133",
+"modifiedtime": "20261111171206",
 "sigungucode": "",
 "tel": "052-276-8590052-229-2724",
 "title": "울산공업축제"
@@ -329,30 +329,34 @@
 },
 "3578130": {
 "addr1": "울산광역시 남구 대공원로 94 (옥동)",
-"areacode": "7",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "detail": {
-"eventPlace": "울산대공원",
+"eventPlace": "울산대공원 풍차 일원",
 "feeRaw": "무료",
-"fetchedAt": "2026-10-14",
-"homepage": "http://www.storynightmarket.com/",
-"overview": "울산의 밤, 크리스마스 마켓은 겨울의 감성을 품은 도심 속 연말 축제로, 반짝이는 조명과 울산의 야경이 어우러진 특별한 밤을 선사한다. 핸드메이드 굿즈, 먹거리 부스와 푸드트럭 등 로컬 소상공인 40여팀이 참여하며, 따뜻한 겨울 간식과 개성 있는 수공예 소품을 만나볼 수 있다. 마켓에서는 버스킹 공연이 펼쳐져 크리스마스 분위기를 더욱 풍성하게 만들어 낭만적인 겨울 밤을 선사한다. 또한 산타의 선물 이벤트와 풍선아트 이벤트 등 방문객 참여 프로그램도 마련되어 있어 어린이부터 어른까지 모두가 즐거운 시간을 보낼 수 있다.",
+"fetchedAt": "2026-11-11",
+"homepage": "http://ulsanstorynightmarket.com/",
+"overview": "울산 크리스마스 마켓은 2026년 11월 27일부터 12월 26일까지 울산대공원 정문 풍차 일원에서 개최되는 크리스마스 테마의 야간 마켓이다. 울산문화관광재단이 주최·주관하는 행사로 판매와 체험, 먹거리, 놀이시설 및 공연 프로그램을 함께 운영하는 행사이다. 정기 운영일은 행사 기간 중 매주 금요일과 토요일이며, 운영시간은 오후 6시부터 오후 10시까지이다. 크리스마스 주간에는 운영일을 확대하며, 해당 주간의 운영일은 12월 23일 수요일부터 12월 26일 토요일까지 총 4일이다.",
 "phone": "052-271-8701",
-"playTime": "17:00~21:00"
+"playTime": "18:00~22:00"
 },
 "editions": {
 "2025": {
 "end": "2025-12-27",
 "start": "2025-12-05"
+},
+"2026": {
+"end": "2026-12-26",
+"start": "2026-11-27"
 }
 },
-"firstimage": "http://tong.visitkorea.or.kr/cms/resource/65/3578165_image2_1.jpg",
-"mapx": "129.2935470479",
-"mapy": "35.5316989268",
-"modifiedtime": "20251203140138",
-"sigungucode": "2",
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/40/4153340_image2_1.jpg",
+"mapx": "129.2935190325",
+"mapy": "35.5316566254",
+"modifiedtime": "20261111175754",
+"sigungucode": "",
 "tel": "052-271-8701",
-"title": "울산의 밤, 크리스마스 마켓"
+"title": "울산 크리스마스 마켓"
 },
 "4090201": {
 "addr1": "울산광역시 남구 대공원로 94 (옥동)",
