@@ -328,15 +328,15 @@
 "title": "해양레저축제, 키마위크(KIMA WEEK)"
 },
 "2048902": {
-"addr1": "부산광역시 해운대구 해운대해변로 280 (중동)",
-"areacode": "6",
+"addr1": "부산광역시 해운대구 중동 1411-14",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "detail": {
-"eventPlace": "해운대 해수욕장",
+"eventPlace": "구남로, 해운대해수욕장 일원",
 "feeRaw": "무료",
-"fetchedAt": "2026-10-14",
-"homepage": "https://www.haeundae.go.kr/tour/index.do?menuCd=DOM_000000309006000000&utm_source=ig&utm_medium=social&utm_content=link_in_bio&utm_id=1344207247310791_v2_s02_e1002&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4CGNhbGxzaXRlAjE1AAGnXyK7aX8cyXm0u5KX16jwl_ZRy3DWyhX8ta671R_fWV5zhx3_yKNZoGKMjPM_aem_HbTLaOkJ8RfrBv17__xb-g",
-"overview": "해운대 빛축제는 해운대 해수욕장과 구남로 일원에서 펼쳐지며 겨울철 부산을 대표하는 축제로 12회를 맞이하였다. 2025년 11월 29일부터 2026년 1월 18일까지 'STELLAR HAEUNDAE : 별의 물결이 밀려오다'라는 주제로 빛을 이용한 조형물 및 미디어아트 연출, 각종 체험프로그램 및 이벤트를 운영함으로써 해운대구를 찾는 관광객과 구민들에게 다양한 즐길 거리 제공한다.",
+"fetchedAt": "2026-11-12",
+"homepage": "https://www.haeundae.go.kr/tour/index.do?menuCd=DOM_000000309006000000",
+"overview": "해운대구(구청장 김성수)는 11월 28일 점등식을 시작으로 내년 1월 10일까지 제13회 해운대빛축제를 연다.  올해 축제의 주제는 ‘딥 다이브 해운대(Deep Dive Haeundae)’로 수면에서 심해로 깊이 들어갈수록 더 밝아지는 빛의 여정을 선보인다.  해운대스퀘어(구남로)와 해수욕장 백사장까지 이어지는 공간에 바다, 항해, 심해를 테마로 한 다채로운 빛 조형물과 미디어아트를 설치해 방문객들에게 바닷속을 직접 탐험하는 듯한 몰입형 경험을 선사할 예정이다.",
 "phone": "051-749-4062",
 "playTime": "18:00~23:00"
 },
@@ -344,13 +344,17 @@
 "2025": {
 "end": "2026-01-18",
 "start": "2025-11-29"
+},
+"2026": {
+"end": "2027-01-10",
+"start": "2026-11-28"
 }
 },
-"firstimage": "http://tong.visitkorea.or.kr/cms/resource/12/3576412_image2_1.jpg",
-"mapx": "129.1626049105",
-"mapy": "35.1595354549",
-"modifiedtime": "20251231135120",
-"sigungucode": "16",
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/12/3576412_image2_1.jpg",
+"mapx": "129.1615365475",
+"mapy": "35.1592056511",
+"modifiedtime": "20261112153023",
+"sigungucode": "",
 "tel": "051-749-4062",
 "title": "해운대 빛축제"
 },
