@@ -334,7 +334,7 @@
 "detail": {
 "eventPlace": "구남로, 해운대해수욕장 일원",
 "feeRaw": "무료",
-"fetchedAt": "2026-11-12",
+"fetchedAt": "2026-11-13",
 "homepage": "https://www.haeundae.go.kr/tour/index.do?menuCd=DOM_000000309006000000",
 "overview": "해운대구(구청장 김성수)는 11월 28일 점등식을 시작으로 내년 1월 10일까지 제13회 해운대빛축제를 연다.  올해 축제의 주제는 ‘딥 다이브 해운대(Deep Dive Haeundae)’로 수면에서 심해로 깊이 들어갈수록 더 밝아지는 빛의 여정을 선보인다.  해운대스퀘어(구남로)와 해수욕장 백사장까지 이어지는 공간에 바다, 항해, 심해를 테마로 한 다채로운 빛 조형물과 미디어아트를 설치해 방문객들에게 바닷속을 직접 탐험하는 듯한 몰입형 경험을 선사할 예정이다.",
 "phone": "051-749-4062",
@@ -350,10 +350,10 @@
 "start": "2026-11-28"
 }
 },
-"firstimage": "https://tong.visitkorea.or.kr/cms/resource/12/3576412_image2_1.jpg",
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/41/4155841_image2_1.jpg",
 "mapx": "129.1615365475",
 "mapy": "35.1592056511",
-"modifiedtime": "20261112153023",
+"modifiedtime": "20261113092055",
 "sigungucode": "",
 "tel": "051-749-4062",
 "title": "해운대 빛축제"
@@ -1912,7 +1912,7 @@
 "detail": {
 "eventPlace": "전포사잇길",
 "feeRaw": "무료",
-"fetchedAt": "2026-10-14",
+"fetchedAt": "2026-11-13",
 "homepage": "https://litt.ly/timingus?ref=qr.litt.ly",
 "overview": "올해 세번째로 개최되는 비어로드 페스티벌 전포사잇길은 전포사잇길의 독특한 골목 감성과 자유로운 스트리트 문화가 어우러진 특색 있는 로컬 축제이다. 이번 행사는 개별 골목길의 매력을 살린 다채로운 관광 콘텐츠를 통해 국내외의 관광객을 유치하고, 전포를 세계적인 글로벌 관광 명소로 브랜딩하기 위해 기획하였다. 행사장 내 메인무대에서는 분위기를 고조시킬 DJ부스 공연과 정열적인 바차타 파티, 관객이 직접 참여하는 이벤트를 진행하여 활기찬 축제 분위기를 조성하고자 한다.",
 "phone": "051-605-4526",
@@ -1927,7 +1927,7 @@
 "firstimage": "https://tong.visitkorea.or.kr/cms/resource/32/4103732_image2_1.jpg",
 "mapx": "129.0663543000",
 "mapy": "35.1548250000",
-"modifiedtime": "20260825094631",
+"modifiedtime": "20261113102340",
 "sigungucode": "",
 "tel": "051-605-4526",
 "title": "부산진구 전포사잇길 맥주축제"
