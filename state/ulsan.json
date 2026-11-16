@@ -136,12 +136,12 @@
 },
 "2933428": {
 "addr1": "울산광역시 중구 젊음의거리 27-4 (성남동)",
-"areacode": "7",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "detail": {
 "eventPlace": "성남동 소방서 부지",
 "feeRaw": "무료",
-"fetchedAt": "2026-10-14",
+"fetchedAt": "2026-11-16",
 "homepage": "https://ulsansnowfestival.my.canva.site/",
 "overview": "울산 성남동 눈꽃축제는 울산 중구 성남동 일대에서 매년 겨울철에 진행되는 지역 축제이다. 주로 12월부터 이듬해 1월 사이에 열린다. 주요 프로그램으로 눈사람 만들기 체험, 트리숲, 인공눈 연출, 크리스마스 합창대회, 지역 예술 공연 등이 마련된다. 지역 상권과 연계하여 플리마켓, 푸드존 등을 구성하고, 방문객에게 다양한 먹거리와 볼거리를 제공한다.",
 "phone": "010-4825-0560",
@@ -153,11 +153,11 @@
 "start": "2025-12-24"
 }
 },
-"firstimage": "http://tong.visitkorea.or.kr/cms/resource/64/3586264_image2_1.jpg",
-"mapx": "129.3179304069",
-"mapy": "35.5538802250",
-"modifiedtime": "20251219142106",
-"sigungucode": "1",
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/64/3586264_image2_1.jpg",
+"mapx": "129.3179013978",
+"mapy": "35.5538388320",
+"modifiedtime": "20261116130454",
+"sigungucode": "",
 "tel": "010-4825-0560",
 "title": "울산 성남동 눈꽃축제"
 },

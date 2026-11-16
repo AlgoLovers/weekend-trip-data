@@ -870,7 +870,7 @@
 "detail": {
 "eventPlace": "남악중앙공원",
 "feeRaw": "무료(일부 프로그램 유료)",
-"fetchedAt": "2026-11-09",
+"fetchedAt": "2026-11-16",
 "homepage": "https://tour.muan.go.kr/tour/festival/yd_festival/introduce",
 "overview": "무안YD페스티벌은 청년들의 문화 참여와 소통을 위해 무안군에서 개최하는 청년문화 축제이다. 2026년 제6회 무안YD페스티벌은 11월 20일부터 22일까지 3일간 무안군 삼향읍 남악중앙공원에서 개최되며, 올해 주제는 ‘PLAY YD’이다. 청년들이 다양한 문화 콘텐츠를 직접 즐기고 참여할 수 있도록 공연, 체험, 참여형 프로그램 등으로 구성하며, 청년들의 꿈과 끼를 펼칠 수 있는 기회와 청년 간 교류·소통의 장을 제공한다.",
 "phone": "061-450-5474",
@@ -889,7 +889,7 @@
 "firstimage": "https://tong.visitkorea.or.kr/cms/resource/08/4131308_image2_1.JPG",
 "mapx": "126.4628109019",
 "mapy": "34.8111428583",
-"modifiedtime": "20261109095851",
+"modifiedtime": "20261116175614",
 "sigungucode": "",
 "tel": "061-450-5474",
 "title": "무안 YD 페스티벌"
@@ -1088,26 +1088,30 @@
 "areacode": "",
 "cpyrhtDivCd": "Type3",
 "detail": {
-"eventPlace": "함평엑스포공원 일원 및 읍 시가지",
+"eventPlace": "함평엑스포공원 및 읍 시가지 일원",
 "feeRaw": "무료",
-"fetchedAt": "2026-10-14",
-"homepage": "https://www.hpftf.or.kr/contentsView.do?pageId=www259",
-"overview": "국향대전에서 활용한 대형 조형물과 엑스포공원 야간 경관조명을 활용한 겨울철 축제이다. 화려함과 정교함으로 관광객 및 군민의 시선을 사로잡는 대형 미디어 아트 작품도 상영하고 있고 다양한 즐길거리와 먹거리, 관광객이 동화되는 체험 프로그램 등을 운영한다.",
-"phone": "061-320-2238",
-"playTime": "평일,주말 및 공휴일 16:00~21:00"
+"fetchedAt": "2026-11-16",
+"homepage": "https://www.hpftf.or.kr/contentsView.do?pageId=www257",
+"overview": "2026 함평 겨울빛축제는 ‘함평의 밤, 빛의 향연!’을 주제로 2026년 12월 18일부터 31일까지 14일간 함평군 함평엑스포공원과 함평읍 시가지 일원에서 개최되는 겨울 야간축제이다.   올해로 3회째를 맞는 겨울빛축제는 기존 함평엑스포공원 중심의 축제 공간을 함평읍 시가지까지 확대하고, 야간경관과 공연, 체험 등 다양한 프로그램으로 구성된다.   함평엑스포공원 중앙광장에는 ‘빛의 신화동산’을 조성하고, 잔디광장에는 대형 크리스마스트리와 빛 조형물이 어우러진 ‘빛의 정원’을 선보인다.",
+"phone": "061-320-2247",
+"playTime": "16:00 ~ 21:00"
 },
 "editions": {
 "2025": {
 "end": "2026-01-11",
 "start": "2025-11-28"
+},
+"2026": {
+"end": "2026-12-31",
+"start": "2026-12-18"
 }
 },
-"firstimage": "https://tong.visitkorea.or.kr/cms/resource/10/4010710_image2_1.JPG",
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/51/4159151_image2_1.jpg",
 "mapx": "126.5199494216",
 "mapy": "35.0561887483",
-"modifiedtime": "20260702144934",
+"modifiedtime": "20261116163511",
 "sigungucode": "",
-"tel": "061-320-2238",
+"tel": "061-320-2247",
 "title": "함평 겨울빛축제"
 },
 "3460731": {
@@ -1364,8 +1368,8 @@
 "detail": {
 "eventPlace": "순천만국가정원",
 "feeRaw": "10,000원",
-"fetchedAt": "2026-10-14",
-"homepage": "https://lemouton.co.kr",
+"fetchedAt": "2026-11-16",
+"homepage": null,
 "overview": "걷기 편한 신발 브랜드 르무통이 오는 6월 13일부터 이틀 간 순천만국가정원 일대에서 1,400명 규모의 '르무통 산책회 in 순천'을 개최한다. '르무통 산책회 in 순천'은 걷기와 문화적 경험을 결합한 것이 특징이다. 참가자들은 오전 9시 그린아일랜드를 출발해 걷기 행사 진행 후 도착지인 워케이션 센터에서 열리는 '가든 음악회'를 통해 낭만적인 분위기에서 특별한 휴식의 시간을 가질 예정이다.",
 "phone": "1599-9108",
 "playTime": "08:00~12:00"
@@ -1379,7 +1383,7 @@
 "firstimage": "https://tong.visitkorea.or.kr/cms/resource/55/4070355_image2_1.jpg",
 "mapx": "127.5008014959",
 "mapy": "34.9288716802",
-"modifiedtime": "20260630184428",
+"modifiedtime": "20261116131134",
 "sigungucode": "",
 "tel": "1599-9108",
 "title": "르무통 산책회 in 순천"
