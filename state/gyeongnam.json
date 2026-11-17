@@ -1086,7 +1086,7 @@
 "detail": {
 "eventPlace": "추도 미조야외극장 및 공유센터 일원",
 "feeRaw": "100,000원(숙식포함)",
-"fetchedAt": "2026-10-14",
+"fetchedAt": "2026-11-17",
 "homepage": "http://chudofilm.com/",
 "overview": "제3회 추도 섬 영화제는 통영의 아름다운 섬 추도에서 펼쳐지는 주민 참여형 섬 영화제이다. 본 영화제는 섬마을 주민들과 예술가가 함께 만들어가며, 파도 소리와 밤하늘 별빛 아래에서 영화를 즐기는 특별한 경험을 제공한다. 감독들이 추도에 직접 머물며 제작한 레지던시 영화부터 '그리움'과 '자연'을 테마로 한 장·단편 영화를 밤바다 야외극장과 실내에서 상영하는 영화제이다.",
 "phone": "051-790-9433",
@@ -1094,14 +1094,14 @@
 },
 "editions": {
 "2026": {
-"end": "2026-10-25",
-"start": "2026-10-23"
+"end": "2026-11-29",
+"start": "2026-11-27"
 }
 },
-"firstimage": "https://tong.visitkorea.or.kr/cms/resource/98/4111498_image2_1.png",
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/10/4163310_image2_1.png",
 "mapx": "128.2954572699",
 "mapy": "34.7561870967",
-"modifiedtime": "20260916170616",
+"modifiedtime": "20261117175904",
 "sigungucode": "",
 "tel": "051-790-9433",
 "title": "제3회 추도 섬 영화제"
