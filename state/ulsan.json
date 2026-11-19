@@ -141,8 +141,8 @@
 "detail": {
 "eventPlace": "성남동 소방서 부지",
 "feeRaw": "무료",
-"fetchedAt": "2026-11-16",
-"homepage": "https://ulsansnowfestival.my.canva.site/",
+"fetchedAt": "2026-11-19",
+"homepage": null,
 "overview": "울산 성남동 눈꽃축제는 울산 중구 성남동 일대에서 매년 겨울철에 진행되는 지역 축제이다. 주로 12월부터 이듬해 1월 사이에 열린다. 주요 프로그램으로 눈사람 만들기 체험, 트리숲, 인공눈 연출, 크리스마스 합창대회, 지역 예술 공연 등이 마련된다. 지역 상권과 연계하여 플리마켓, 푸드존 등을 구성하고, 방문객에게 다양한 먹거리와 볼거리를 제공한다.",
 "phone": "010-4825-0560",
 "playTime": "13:00~21:00"
@@ -156,7 +156,7 @@
 "firstimage": "https://tong.visitkorea.or.kr/cms/resource/64/3586264_image2_1.jpg",
 "mapx": "129.3179013978",
 "mapy": "35.5538388320",
-"modifiedtime": "20261116130454",
+"modifiedtime": "20261119013003",
 "sigungucode": "",
 "tel": "010-4825-0560",
 "title": "울산 성남동 눈꽃축제"
@@ -334,7 +334,7 @@
 "detail": {
 "eventPlace": "울산대공원 풍차 일원",
 "feeRaw": "무료",
-"fetchedAt": "2026-11-11",
+"fetchedAt": "2026-11-19",
 "homepage": "http://ulsanstorynightmarket.com/",
 "overview": "울산 크리스마스 마켓은 2026년 11월 27일부터 12월 26일까지 울산대공원 정문 풍차 일원에서 개최되는 크리스마스 테마의 야간 마켓이다. 울산문화관광재단이 주최·주관하는 행사로 판매와 체험, 먹거리, 놀이시설 및 공연 프로그램을 함께 운영하는 행사이다. 정기 운영일은 행사 기간 중 매주 금요일과 토요일이며, 운영시간은 오후 6시부터 오후 10시까지이다. 크리스마스 주간에는 운영일을 확대하며, 해당 주간의 운영일은 12월 23일 수요일부터 12월 26일 토요일까지 총 4일이다.",
 "phone": "052-271-8701",
@@ -353,7 +353,7 @@
 "firstimage": "https://tong.visitkorea.or.kr/cms/resource/40/4153340_image2_1.jpg",
 "mapx": "129.2935190325",
 "mapy": "35.5316566254",
-"modifiedtime": "20261111175754",
+"modifiedtime": "20261119150653",
 "sigungucode": "",
 "tel": "052-271-8701",
 "title": "울산 크리스마스 마켓"
