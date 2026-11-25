@@ -2069,30 +2069,34 @@
 },
 "674023": {
 "addr1": "강원특별자치도 강릉시 경포로 515 (안현동)",
-"areacode": "32",
+"areacode": "",
 "cpyrhtDivCd": "Type3",
 "detail": {
-"eventPlace": "경포해변 및 정동진 모래시계공원",
+"eventPlace": "주문진 도깨비 방파제, 경포해변, 정동진 모래시계공원",
 "feeRaw": "무료",
-"fetchedAt": "2026-10-14",
-"homepage": "https://www.gn.go.kr/www/selectBbsNttView.do?key=258&bbsNo=12&nttNo=201011&searchCtgry=&searchCnd=all&searchKrwd=&pageIndex=1&integrDeptCode=",
-"overview": "동해안 해맞이 명소 경포해변과 정동진 모래시계공원에서 만나는 2026년의 첫번째 해돋이. 해넘이와 해맞이를 강릉에서 만날 수 있다.",
+"fetchedAt": "2026-11-25",
+"homepage": null,
+"overview": "2027년 정미년, 강릉의 겨울 바다가 화려하고 특별한 축제의 무대로 변신한다. 주문진·경포·정동진에서 펼쳐지는 해맞이 행사는 신나는 공연부터 화려한 불꽃놀이, 새해 소원을 담는 체험까지 즐길 거리가 많이 준비되어있다. 올해 새롭게 선보이는 메인 이벤트 ‘주문진 도깨비 불꽃 축제’는 칠흑 같은 밤바다에 드론과 조명으로 신비로운 도깨비불이 나타나고, 자정 카운트다운이 끝나면 주문진도깨비 방파제에서 약 20분간 대형 불꽃이 밤하늘을 수놓는 이벤트이다.",
 "phone": "033-640-5130",
-"playTime": "20:00~00:30( 2026. 1. 1. 06:00~08:00)"
+"playTime": "21:00~00:30(07:00~08:00)"
 },
 "editions": {
 "2025": {
 "end": "2026-01-01",
 "start": "2025-12-31"
+},
+"2026": {
+"end": "2027-01-01",
+"start": "2026-12-31"
 }
 },
-"firstimage": "http://tong.visitkorea.or.kr/cms/resource/40/3588540_image2_1.jpg",
-"mapx": "128.9067724937",
-"mapy": "37.8052793467",
-"modifiedtime": "20251224132726",
-"sigungucode": "1",
+"firstimage": "https://tong.visitkorea.or.kr/cms/resource/77/4175077_image2_1.jpg",
+"mapx": "128.9067457491",
+"mapy": "37.8052239456",
+"modifiedtime": "20261125144646",
+"sigungucode": "",
 "tel": "033-640-5130",
-"title": "병오년 해맞이 행사"
+"title": "정미년 해맞이 행사 with 주문진 도깨비 불꽃 축제"
 },
 "695592": {
 "addr1": "강원특별자치도 강릉시 경포로 365",
